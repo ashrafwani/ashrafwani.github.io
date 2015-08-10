@@ -1,0 +1,27 @@
+---
+layout: layout
+---
+
+<div class="home">
+  <div id="background">
+    <a href="/"><img class="junaid-background" src="ashraf.jpg" alt="" /></a>
+    <div class="teaser">
+      <p>
+        Microsoft Certified Professional Developer @ <a href="http://developer.microsoft.com">Microsoft</a>
+        | Microsoft Technology Evangelist | Blogger | Speaker
+      </p>
+    </div>
+  </div>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></p>
+</div>

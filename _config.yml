@@ -1,0 +1,14 @@
+# Site settings
+title: Ashraf Wani
+email: im@ashrafwani.com
+description: "Microsoft Certified Professional Developer"
+baseurl: ""
+url: "http://ashrafwani.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Gems
+gems:
+   - jekyll-sitemap

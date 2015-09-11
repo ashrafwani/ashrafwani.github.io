@@ -1,37 +1,30 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: layout
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <title>Ashraf Wani</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>Ashraf Wani</h1>
-        <h2>Microsoft Certified Professional Developer</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/ashrafwani" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <p><a href="https://gitter.im/ashrafwani/ashrafwani.github.io?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/ashrafwani/ashrafwani.github.io"></a></p>
-
-<p>This is my personal blog...</p>
-<p>SITE UNDER CONSTRUCTION !</p>
-      </section>
+<div class="home">
+  <div id="background">
+    <a href="/"><img class="junaid-background" src="ashraf.jpg" alt="" /></a>
+    <div class="teaser">
+      <p>
+        Microsoft Certified Professional Developer @ <a href="http://developer.microsoft.com">Microsoft</a>
+        | Microsoft Technology Evangelist | Blogger | Speaker
+      </p>
     </div>
+  </div>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></p>
+</div>
 
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -43,6 +36,3 @@
             pageTracker._trackPageview();
             } catch(err) {}
           </script>
-
-  </body>
-</html>

@@ -1,0 +1,62 @@
+
+<!-- MAIN BODY MARKUP-->
+<header class="site-header">
+
+  <div class="wrap">
+
+    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}
+    <p>
+      Microsoft Certified Professional Developer
+    </p>
+  </a>
+
+    <nav class="site-nav">
+      <div id="toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+      <div id="menu">
+        <div class="table-menu">
+          <div class="menu">
+          <a class="page-link" href="/about/"><span data-hover="About">About</span></a>
+        
+          <a class="page-link" href="/blog/"><span data-hover="Blog">Blog</span></a>
+
+          <a class="page-link" href="/talks/"><span data-hover="Presentations">Presentations</span>
+          <!-- .notification class for number -->
+
+          <a class="page-link" href="/contact/"><span data-hover="Contact">Contact</span></a>
+        
+          <a class="page-link" href="/"><span data-hover="Home">Home</span></a>
+
+          <div id="mobile-social">
+
+            <a href="https://twitter.com/aashu_wani"><i class="fa fa-twitter"></i></a>
+
+            <a href="https://github.com/ashrafwani"><i class="fa fa-github"></i></a>
+
+            <a href="https://www.facebook.com/aashuvani"><i class="fa fa-facebook"></i></a>
+
+            <a href="mailto:im@ashrafwani.com"><i class="fa fa-envelope"></i></a>
+
+          </div>
+        </div>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+  <div id="my-social">
+
+    <a href="https://twitter.com/aashu_wani"><i class="fa fa-twitter"></i><p>@aashu_wani</p></a>
+
+    <a href="https://github.com/ashrafwani"><i class="fa fa-github"></i><p>@ashrafwani</p></a>
+
+    <a href="https://www.facebook.com/aashuvani"><i class="fa fa-facebook"></i><p>aashuvani</p></a>
+
+    <a href="mailto:im@ashrafwani.com"><i class="fa fa-envelope"></i><p>im@ashrafwani.com</p></a>
+
+  </div>
+
+</header>

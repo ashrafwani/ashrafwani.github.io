@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is Github"
-date:   2015-05-10 11:09:54
+date:   2014-05-10 11:09:54
 categories: Github
 ---
 As per [Github](https://github.com/about), <mark>It is the best place to share code with friends, co-workers, classmates, and complete strangers</mark>. More generally i call it __Coding Social Network__ You don't push status updates but Repositories and chunks of code :) . Oh! ya you can comment here as well, well thats different comment don't get confused with Facebook ones ;)
@@ -30,4 +30,4 @@ Unlike GIT, Github can be accessed via Graphical user interface as well.
 
 <b>Local Repository</b> Taking clone of repository on your machine and working on it, Despite Internet connection is working or not.
 
-Setting Up github for the first time, You simply need to sign up at [Github.com](https://www.github.com) and Creating you first repository.
+Setting Up github for the first time, You simply need to sign up at [Github.com](https://www.github.com) and Creating you first repository is shown in other [Post]

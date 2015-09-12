@@ -16,7 +16,7 @@ permalink: /contact/
     <textarea name="message" required placeholder="Whats the Message" ></textarea>
     <input type='submit' value='submit' />
      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-    <input type='hidden' name='redirect_to' value='http://ashrafwani.com/ashrafwani/thankyou.html' />
+    <input type='hidden' name='redirect_to' value='http://ashrafwani.com/thankyou.html' />
     </form>
 
 </div>

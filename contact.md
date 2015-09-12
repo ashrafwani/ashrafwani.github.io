@@ -21,5 +21,32 @@ permalink: /contact/
 
 </div>
 
-<div class="social">
+
+
+<div id="mobile-social">
+
+    <a href="https://twitter.com/aashu_wani"><i class="fa fa-twitter"></i></a>
+
+    <a href="https://github.com/ashrafwani"><i class="fa fa-github"></i></a>
+
+    <a href="https://facebook.com/aashuvani"><i class="fa fa-facebook"></i></a>
+    
+    <a href="https://instagram.com/ashraf.wani"><i class="fa fa-instagram"></i></a>
+
+    <a href="mailto:im@ashrafwani.com"><i class="fa fa-envelope"></i></a>
+
+</div>
+
+<div id="my-social">
+
+    <a href="https://twitter.com/aashu_wani"><i class="fa fa-twitter"></i><p>@aashu_wani</p></a>
+
+    <a href="https://github.com/ashrafwani"><i class="fa fa-github"></i><p>@ashrafwani</p></a>
+
+    <a href="https://facebook.com/aashuvani"><i class="fa fa-facebook"></i><p>aashuvani</p></a>
+    
+    <a href="https://instagram.com/ashraf.wani"><i class="fa fa-instagram"></i><p>@ashraf.wani</p></a>
+
+    <a href="mailto:im@ashrafwani.com"><i class="fa fa-envelope"></i><p>im@ashrafwani.com</p></a>
+
 </div>

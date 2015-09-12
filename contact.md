@@ -20,3 +20,6 @@ permalink: /contact/
     </form>
 
 </div>
+
+<div class="social">
+</div>

@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "Logo"
-date:   2015-02-05 11:09:54
+title:  "Test"
+date:   2015-04-28 10:08:54
 categories: Design
 ---
 
-I've been thinking of creating a logo for my site for long now, So finally took a move to create one. Here is the first iteration. The color combination is around solarized dark because I like the color.
-
-Logo meaning
+This is a test blog, more will be coming soon.
 
 <p style="font-size=2em;font-family:times new roman;font-style:italic;text-align:center;">"what we see is code between braces"</p>
 

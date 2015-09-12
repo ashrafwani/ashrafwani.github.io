@@ -1,0 +1,121 @@
+/* media queries */
+/* ----------------------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+  .home, .post {
+    padding: 0 2em;
+  }
+  .post-page-content {
+  .post {
+    padding : 0 1em;
+  }
+}
+}
+@media screen and (max-width: 750px) {
+
+  .site-header .wrap {
+    margin-left: 0;
+  }
+  
+  #mobile-social {
+    display: block;
+    margin-top: 2em;
+  }
+  .post {
+    padding: 0 1em;
+  }
+  
+  .site-header {
+    width: 0px;
+  }
+
+  .page-content {
+    margin-left: 0;
+  }
+  .site-title, #my-social {
+    display: none!important;
+  }
+
+  .home {
+    padding: 0 1em;
+  }
+  
+  .table-menu {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .menu {
+    display: table-cell;
+    vertical-align: middle;
+
+    a {
+      text-transform: lowercase;
+      font-weight: 400;
+      color: #fff!important;
+    }
+  }
+  #toggle {
+  width: 28px;
+  height: 30px;
+  margin: 10px auto;
+  position: absolute;
+  z-index: 99;
+  margin-left: 1em;
+
+    div {
+      width: 100%;
+      height: 5px;
+      background: #00BFFC;
+      margin: 4px auto;
+      transition: all 0.6s;
+      background-visibility: hidden;
+    }
+  }
+  
+  #toggle.on {
+    .one {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .two {
+      opacity: 0;
+    }
+
+    .three {
+      transform: rotate(-45deg) translate(7px, -8px);
+    }
+  }
+
+  #menu {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    display: none;
+    position: fixed;
+    background-image: linear-gradient(to bottom, #063652 0%, #0081A2 100%);
+  }
+  .post-header h1 { font-size: 36px; }
+  .post-content h2 { font-size: 28px; }
+  .post-content h3 { font-size: 22px; }
+  .post-content h4 { font-size: 18px; }
+  .post-content blockquote { padding-left: 10px; }
+  .post-content ul,
+  .post-content ol { padding-left: 10px; }
+
+  .site-footer .column {
+    float: none;
+    clear: both;
+    width: auto;
+    margin: 0 0 15px; }
+
+}
+
+@media screen and (max-width: 500px) {
+  .blog-nav {
+    width: 500px;
+    overflow-y: scroll;
+  }
+}

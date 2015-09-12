@@ -13,6 +13,5 @@ Originally beginning my career as a Microsoft Technology Evangelist and a Studen
 Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 
 
-<div class="hire"> <p>I am currently available for Hire</p> </div>
-<div class="hire"><a href="/contact">I am currently available for Hire</a></div>
+<div class="hire">I am currently available for Hire</div>
 

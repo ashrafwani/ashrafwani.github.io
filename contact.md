@@ -17,22 +17,7 @@ permalink: /contact/
     <input type='submit' value='submit' />
      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
     <input type='hidden' name='redirect_to' value='http://ashrafwani.com/thankyou.html' />
-    
 
-<div id="mobile-social">
-
-    <a href="https://twitter.com/aashu_wani"><i class="fa fa-twitter"></i></a>
-
-    <a href="https://github.com/ashrafwani"><i class="fa fa-github"></i></a>
-
-    <a href="https://facebook.com/aashuvani"><i class="fa fa-facebook"></i></a>
-    
-    <a href="https://instagram.com/ashraf.wani"><i class="fa fa-instagram"></i></a>
-
-    <a href="mailto:im@ashrafwani.com"><i class="fa fa-envelope"></i></a>
-
-</div>
 </form>
 
 </div>
-

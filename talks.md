@@ -65,4 +65,4 @@ permalink: /talks/
 <h4>Windows Phone Application Development</h4>
 </div>
 
-<div class="hire"><a href="/contact">Available for speaking from March 2015.</a></div>
+<div class="hire"><a href="/contact">Available for speaking</a></div>

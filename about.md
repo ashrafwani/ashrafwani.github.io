@@ -15,3 +15,9 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 
 <div class="hire"><a href="/contact">I am currently available for Hire</a></div>
 
+---
+layout: page
+title: About
+permalink: /about/
+---
+

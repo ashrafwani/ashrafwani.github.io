@@ -17,8 +17,19 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 
 <h2>Certifications</h2>
 <div class="talks">
-<div class="timed">28 January, 2013</div>
-<h6>Microsoft Certified Professional Developer</h6>
+<div class="timed">December, 2012</div>
+<h6>Microsoft Certified Professional Developer (MCPD)</h6>
 </div>
+The Microsoft Certified Professional Developer (MCPD) certification enables IT Professionals to demonstrate comprehensive skills needed to designing, developing and Deploying Windows Applications using Microsoft Visual Studio® and .NET Framework 4 for a particular job role.
 
-Microsoft
+<div class="talks">
+<div class="timed">January, 2013</div>
+<h6>Microsoft Certified Solution Developer (MCSD)</h6>
+</div>
+The Microsoft Certified Solution Developer (MCSD) certification helps validate the comprehensive skills needed to Designing and Developing Windows 8 Metro Style Applications using Microsoft Visual Studio® 2012 with HTML5, JavaScript and CSS3.
+
+<div class="talks">
+<div class="timed">January, 2013</div>
+<h6>HCL Certified Software Engineer (HCSE)</h6>
+</div>
+The HCL Certified Software Engineer (HCSE) certification provides hi-tech training in the stream of Software Development, Testing, SDLC, Impelementation, Support, Mantenance and helps validate the comprehensive soft skills needed to develop desktop applications using Microsoft Visual Studio® and .NET Framework 4.

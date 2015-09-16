@@ -17,4 +17,5 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 
 <h2>Certifications</h2>
 
-Microsoft 
+Microsoft Certified Professional Developer<div class="timed">28 January, 2013</div>
+Microsoft

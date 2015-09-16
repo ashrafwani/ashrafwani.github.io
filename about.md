@@ -15,6 +15,18 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 
 <div class="hire"><a href="/contact">I am currently available for Hire</a></div>
 
+<h2>Awards and Achievements</h2><div class="talks">
+<div class="timed">December, 2011</div>
+<h6>Microsoft Student Partner</h6>
+</div>
+Microsoft Student Partners is an exclusive community of students who have the power to make a difference. The technical skills and leadership skills, passion for technology, and willingness to share expertise is being acknowledged by the selection as a Microsoft Student Partner.
+
+<div class="timed">September, 2012</div>
+<h6>Guinness World Record Holder</h6>
+</div>
+The most participants in a software development marathon in one location was achieved by Microsoft (India) in Bangalore, India.
+
+
 <h2>Certifications</h2>
 <div class="talks">
 <div class="timed">December, 2012</div>

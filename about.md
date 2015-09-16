@@ -16,6 +16,6 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 <div class="hire"><a href="/contact">I am currently available for Hire</a></div>
 
 <h2>Certifications</h2>
-
-Microsoft Certified Professional Developer<div class="timed">28 January, 2013</div>
+<h6>Microsoft Certified Professional Developer</h6>
+<div class="timed">28 January, 2013</div>
 Microsoft

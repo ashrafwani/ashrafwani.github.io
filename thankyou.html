@@ -5,8 +5,7 @@ permalink: /thankyou.html
 ---
 	
 <style type="text/css" media="screen">
-      body
-      {
+      body {
         position: relative;
 	text-align: center;
 	background-color: #f06060;
@@ -23,6 +22,11 @@ permalink: /thankyou.html
       .drunk {
 	max-width: 550px;
 	margin: auto;
+}
+p{
+	font-weight: 800;
+	font-size: 3em;
+	color: #f48f8f;
 }
 .go-home {
 	
@@ -46,7 +50,7 @@ permalink: /thankyou.html
       a { color: #4183c4; text-decoration: none; font-weight: bold; }
       a:hover { text-decoration: underline; }
 
-      h3 { color: #fff; }
+      h3 { color: #666; }
       ul { list-style: none; padding: 25px 0; }
       li {
         display: inline;
@@ -59,7 +63,7 @@ permalink: /thankyou.html
         margin: 0;
         padding: 7px 8px;
         outline: none;
-        color: #fff;
+        color: #333;
         background-color: #fff;
         background-repeat: no-repeat;
         background-position: right center;
@@ -173,6 +177,18 @@ permalink: /thankyou.html
         padding: 10px;
         width: 90px;
       }
+      .logo { display: inline-block; margin-top: 35px; }
+      .logo-img-2x { display: none; }
+      @media
+      only screen and (-webkit-min-device-pixel-ratio: 2),
+      only screen and (   min--moz-device-pixel-ratio: 2),
+      only screen and (     -o-min-device-pixel-ratio: 2/1),
+      only screen and (        min-device-pixel-ratio: 2),
+      only screen and (                min-resolution: 192dpi),
+      only screen and (                min-resolution: 2dppx) {
+        .logo-img-1x { display: none; }
+        .logo-img-2x { display: inline-block; }
+      }
       #suggestions {
         margin-top: 35px;
         color: #ccc;
@@ -278,5 +294,3 @@ permalink: /thankyou.html
 <div class="go-home">
 	<a href="http://ashrafwani.com">go back home</a>
 </div>
-
-

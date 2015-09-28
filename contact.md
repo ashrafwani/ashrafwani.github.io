@@ -9,7 +9,7 @@ permalink: /contact/
 </p>
 
 <div class="contact">
-    <form action="http://getsimpleform.com/messages?form_api_token=be063d35ddfa6da929007a40c4568b41" method="post">
+    <form action="http://getsimpleform.com/messages?form_api_token=3ef4f7842d95907fc04f45e5c79633fe" method="post">
     <!-- all your input fields here.... -->
     <input type='text' placeholder="Name" name='Name' required label="Name"/>
     <input type='email' placeholder="e-mail" name='email' required label="E-Mail"/>

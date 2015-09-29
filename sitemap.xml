@@ -14,4 +14,52 @@
 
    </url>
 
-</urlset> 
+   <url>
+
+      <loc>http://ashrafwani.com/about</loc>
+      
+      <lastmod>2015-09-29</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>0.3</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://ashrafwani.com/blog</loc>
+
+      <lastmod>2015-09-29</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>0.3</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://ashrafwani.com/talks</loc>
+
+      <lastmod>2015-09-29</lastmod>
+      
+      <changefreq>weekly</changefreq>
+
+      <priority>0.3</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://ashrafwani.com/contact</loc>
+
+      <lastmod>2015-09-29</lastmod>
+      
+      <changefreq>weekly</changefreq>
+
+      <priority>0.3</priority>
+
+   </url>
+
+</urlset>

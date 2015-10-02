@@ -11,9 +11,9 @@ Unicode is a universal international standard character encoding that is capable
 
 Before Unicode, there were many language standards:
 <b>ASCII</b> (American Standard Code for Information Interchange) for the United States.
-ISO 8859-1 for Western European Language.
-KOI-8 for Russian.
-GB18030 and BIG-5 for chinese, and so on.
+<b>ISO 8859-1</b> for Western European Language.
+<b>KOI-8</b> for Russian.
+<b>GB18030</b> and <b>BIG-5</b> for chinese, and so on.
 
 This caused two problems:
 
@@ -22,5 +22,5 @@ The encodings for languages with large character sets have variable length.Some 
 To solve these problems, a new language standard was developed i.e. Unicode System.
 In unicode, character holds 2 byte, so java also uses 2 byte for characters.
 
-lowest value:\u0000
-highest value:\uFFFF
+<b>lowest value:\u0000</b>
+<b>highest value:\uFFFF</b>

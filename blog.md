@@ -16,6 +16,7 @@ permalink: /blog/
 </div>
 
 [![Join the chat at https://gitter.im/ashrafwani/ashrafwani.github.io](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ashrafwani/ashrafwani.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_horizontal_follow_toolbox"></div>
 

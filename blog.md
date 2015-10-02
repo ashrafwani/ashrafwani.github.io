@@ -16,6 +16,9 @@ permalink: /blog/
 </div>
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560ecd304a2437ec" async="async"></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_horizontal_follow_toolbox"></div>
 
 <script>

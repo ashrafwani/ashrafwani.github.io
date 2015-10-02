@@ -9,7 +9,8 @@ Unicode is a universal international standard character encoding that is capable
 
 <h3>Why Java uses Unicode System?</h3>
 
-Before Unicode, there were many language standards:<br>
+Before Unicode, there were many language standards:
+
 <b>ASCII</b> (American Standard Code for Information Interchange) for the United States.<br>
 <b>ISO 8859-1</b> for Western European Language.<br>
 <b>KOI-8</b> for Russian.<br>

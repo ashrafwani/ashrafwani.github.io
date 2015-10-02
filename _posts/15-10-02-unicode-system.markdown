@@ -7,9 +7,10 @@ categories: Design
 
 Unicode is a universal international standard character encoding that is capable of representing most of the world's written languages.
 
-<h2>Why java uses Unicode System?</h2>
+<h3>Why Java uses Unicode System?</h3>
 
 Before Unicode, there were many language standards:
+
 <b>ASCII</b> (American Standard Code for Information Interchange) for the United States.
 <b>ISO 8859-1</b> for Western European Language.
 <b>KOI-8</b> for Russian.
@@ -19,6 +20,7 @@ This caused two problems:
 
 A particular code value corresponds to different letters in the various language standards.
 The encodings for languages with large character sets have variable length.Some common characters are encoded as single bytes, other require two or more byte.
+
 To solve these problems, a new language standard was developed i.e. Unicode System.
 In unicode, character holds 2 byte, so java also uses 2 byte for characters.
 

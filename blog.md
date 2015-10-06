@@ -21,8 +21,10 @@ permalink: /blog/
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_horizontal_follow_toolbox"></div>
 
+<!-- LinkWithin -->
 <script>
 var linkwithin_site_id = 2409957;
 </script>
 <script src="http://www.linkwithin.com/widget.js"></script>
 <a href="http://www.linkwithin.com/"><img src="http://www.linkwithin.com/pixel.png" alt="Related Posts Plugin for WordPress, Blogger..." style="border: 0" /></a>
+

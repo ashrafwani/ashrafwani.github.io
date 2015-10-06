@@ -16,7 +16,7 @@ Java Tutorial or Core Java Tutorial or Java Programming Tutorial is a widely use
 
 Let's have a quick look at java programming example. A detailed description of hello java example is given in next page.
 
-```sh
+```javascript
 class Simple
 {  
     public static void main(String args[])
@@ -25,7 +25,6 @@ class Simple
     }  
 }  
 ```
-
 <h3>Where it is used?</h3>
 
 According to Sun, 3 billion devices run java. There are many devices where java is currently used. Some of them are as follows:

@@ -16,4 +16,4 @@ these terms, please let a maintainer (@parkr, @envygeeks, or @mattr-) know.
 
 ## License
 
-See [LICENSE](https://github.com/ashrafwani/ashrafwani.github.io/blob/master/LICENCE).
+See [LICENSE](https://github.com/ashrafwani/ashrafwani.github.io/blob/master/LICENCE) © 2012-2015 [Ashraf Wani](http://ashrafwani.com/)

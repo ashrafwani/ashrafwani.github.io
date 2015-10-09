@@ -1,2 +1,2 @@
-.sass-cache
-*.css.map
+_site/
+.sass-cache/

@@ -26,6 +26,7 @@ permalink: /thankyou/
 					<div class="quote">
 						<p>Thanks for all that you do. <br /> Talk soon,</p>
 					</div>
+					<p class="author">Ashraf Wani</p>
 					<div class="cl">&nbsp;</div>
 				</div>
 			</div>

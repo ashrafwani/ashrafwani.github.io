@@ -4,12 +4,12 @@ title: Thank You
 permalink: /thankyou/
 ---
 
-
+<head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<link rel="shortcut icon" href="images/favicon.ico" />
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-	
-class="generic">
+	<link rel="shortcut icon" href="/images/favicon.ico" />
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+</head>
+<body class="generic">
 <div id="wrapper">
 	<!-- Main -->
 	<div id="main">
@@ -18,12 +18,12 @@ class="generic">
 				<h3>...Your request has been successfully submitted!</h3>
 			</div>
 			<div class="body">
-				<a href="#" class="vid"><img src="images/gen-video.jpg" width="640" height="360" alt="" /></a>
+				<a href="#" class="vid"><img src="/images/gen-video.jpg" width="640" height="360" alt="" /></a>
 
 			</div>
 			<div class="bottom">
 				<div class="inner">
-					<img src="images/ashraf.png" width="100" height="100" alt="" />
+					<img src="/images/ashraf.png" width="100" height="100" alt="" />
 					<div class="quote">
 						<p>Thanks for all that you do. <br /> Talk soon,</p>
 						<p class="author">Ashraf Wani</p>
@@ -36,4 +36,5 @@ class="generic">
 	<!-- End Main -->
 	<div class="push"></div>
 </div>
+</body>
 

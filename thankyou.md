@@ -31,6 +31,8 @@ permalink: /thankyou/
 			</div>
 		</div>
 	</div>
+	<!-- End Main -->
+	<div class="push"></div>
 </div>
 </body>
 

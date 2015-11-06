@@ -4,12 +4,12 @@ title: Thank You
 permalink: /thankyou/
 ---
 
-<head>
+
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-</head>
-<body class="generic">
+	
+class="generic">
 <div id="wrapper">
 	<!-- Main -->
 	<div id="main">
@@ -36,6 +36,4 @@ permalink: /thankyou/
 	<!-- End Main -->
 	<div class="push"></div>
 </div>
-</body>
-</html>
 

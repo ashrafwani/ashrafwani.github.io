@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Thank You
-permalink: /thank you/
+permalink: /thankyou/
 ---
 
 I a

@@ -21,10 +21,10 @@ permalink: /thankyou/
 
 			</div>
 			<div class="bottom">
-					
-						<p>Thanks for all that you do. <br /> Talk soon,</p>
-					
+				<div class="inner">
+					<p>Thanks for all that you do. <br /> Talk soon,</p>
 					<div class="cl">&nbsp;</div>
+				</div>
 			</div>
 		</div>
 	</div>

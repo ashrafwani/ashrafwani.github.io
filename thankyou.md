@@ -21,13 +21,10 @@ permalink: /thankyou/
 
 			</div>
 			<div class="bottom">
-				<div class="inner">
-					<img src="/images/ashraf.png" width="100" height="100" alt="" />
 					
 						<p>Thanks for all that you do. <br /> Talk soon,</p>
 					
 					<div class="cl">&nbsp;</div>
-				</div>
 			</div>
 		</div>
 	</div>

@@ -5,7 +5,6 @@ permalink: /thankyou/
 ---
 
 <head>
-	<title>Thank You | Ashraf Wani</title>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />

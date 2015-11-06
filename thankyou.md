@@ -21,13 +21,13 @@ permalink: /thankyou/
 
 			</div>
 			<div class="bottom">
+				<div class="inner">
 					<img src="/images/ashraf.png" width="100" height="100" alt="" />
 					<div class="quote">
 						<p>Thanks for all that you do. <br /> Talk soon,</p>
 						<p class="author">Ashraf Wani</p>
 					</div>
-					<div class="cl">&nbsp;</div>
-				
+				</div>
 			</div>
 		</div>
 	</div>

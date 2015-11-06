@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Thank You
 permalink: /thankyou/
 ---
 <head>
@@ -13,7 +14,6 @@ permalink: /thankyou/
 	<div id="main">
 		<div class="container">
 			<div class="head">
-				<h2>Thank You</h2>
 				<h3>...Your request has been successfully submitted!</h3>
 			</div>
 			<div class="body">

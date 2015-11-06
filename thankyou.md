@@ -17,7 +17,7 @@ permalink: /thankyou/
 				<h3>...Your request has been successfully submitted!</h3>
 			</div>
 			<div class="body">
-				<a href="#" class="vid"><img src="/images/gen-video.jpg" width="640" height="360" alt="" /></a>
+				<a href="#" class="vid"><img src="/images/code.jpg" width="640" height="360" alt="" /></a>
 
 			</div>
 			<div class="bottom">

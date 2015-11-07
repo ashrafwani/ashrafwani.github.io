@@ -20,7 +20,7 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 <div class="timed">December, 2011</div>
 <h6>Microsoft Student Partner</h6>
 </div>
-Microsoft Student Partners is an exclusive community of students who have the power to make a difference. The technical skills and leadership skills, passion for technology, and willingness to share expertise is being acknowledged by the selection as a Microsoft Student Partner.
+*Microsoft Student Partners* is an exclusive community of students who have the power to make a difference. The technical skills and leadership skills, passion for technology, and willingness to share expertise is being acknowledged by the selection as a Microsoft Student Partner.
 
 <div class="talks">
 <div class="timed">September, 2012</div>
@@ -34,19 +34,19 @@ The most participants in a software development marathon in one location was ach
 <div class="timed">December, 2012</div>
 <h6>Microsoft Certified Professional Developer (MCPD)</h6>
 </div>
-The Microsoft Certified Professional Developer (MCPD) certification enables IT Professionals to demonstrate comprehensive skills needed to designing, developing and Deploying Windows Applications using Microsoft Visual Studio® and .NET Framework 4 for a particular job role.
+The *Microsoft Certified Professional Developer (MCPD)* certification enables IT Professionals to demonstrate comprehensive skills needed to designing, developing and Deploying Windows Applications using Microsoft Visual Studio® and .NET Framework 4 for a particular job role.
 
 <div class="talks">
 <div class="timed">January, 2013</div>
 <h6>Microsoft Certified Solution Developer (MCSD)</h6>
 </div>
-The Microsoft Certified Solution Developer (MCSD) certification helps validate the comprehensive skills needed to Designing and Developing Windows 8 Metro Style Applications using Microsoft Visual Studio® 2012 with HTML5, JavaScript and CSS3.
+The *Microsoft Certified Solution Developer (MCSD)* certification helps validate the comprehensive skills needed to Designing and Developing Windows 8 Metro Style Applications using Microsoft Visual Studio® 2012 with HTML5, JavaScript and CSS3.
 
 <div class="talks">
 <div class="timed">January, 2013</div>
 <h6>HCL Certified Software Engineer (HCSE)</h6>
 </div>
-The HCL Certified Software Engineer (HCSE) certification provides hi-tech training in the stream of Software Development, Testing, SDLC, Impelementation, Support, Mantenance and helps validate the comprehensive soft skills needed to develop desktop applications using Microsoft Visual Studio® and .NET Framework 4.
+The *HCL Certified Software Engineer (HCSE)* certification provides hi-tech training in the stream of Software Development, Testing, SDLC, Impelementation, Support, Mantenance and helps validate the comprehensive soft skills needed to develop desktop applications using Microsoft Visual Studio® and .NET Framework 4.
 
 
 <div class="hire"><a href="http://1drv.ms/1FMUDa7">Get Resume</a></div>

@@ -14,5 +14,4 @@ permalink: /contact/
      <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
     <input type='hidden' name='redirect_to' value='http://ashrafwani.com/thankyou'/>
     </form>
-
 </div>

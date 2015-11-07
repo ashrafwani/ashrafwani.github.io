@@ -29,14 +29,14 @@ class Simple
 
 According to Sun, 3 billion devices run java. There are many devices where java is currently used. Some of them are as follows:
 
-1. Desktop Applications such as acrobat reader, media player, antivirus etc.
-2. Web Applications such as irctc.co.in, javatpoint.com etc.
-3. Enterprise Applications such as banking applications.
-4. Mobile
-5. Embedded System
-6. Smart Card
-7. Robotics
-8. Games etc.
+- Desktop Applications such as acrobat reader, media player, antivirus etc.
+- Web Applications such as irctc.co.in, javatpoint.com etc.
+- Enterprise Applications such as banking applications.
+- Mobile
+- Embedded System
+- Smart Card
+- Robotics
+- Games etc.
 
 <h3>Types of Java Applications</h3>
 

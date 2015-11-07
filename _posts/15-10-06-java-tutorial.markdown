@@ -16,15 +16,14 @@ Java Tutorial or Core Java Tutorial or Java Programming Tutorial is a widely use
 
 Let's have a quick look at java programming example. A detailed description of hello java example is given in next page.
 
-```javascript
-class Simple
-{  
-    public static void main(String args[])
+
+    class Simple
     {  
-     System.out.println("Hello Java");  
-    }  
-}
-```
+        public static void main(String args[])
+        {  
+         System.out.println("Hello Java");  
+        }  
+    }
 
 <h3>Where it is used?</h3>
 

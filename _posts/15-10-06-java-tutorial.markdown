@@ -16,7 +16,6 @@ Java Tutorial or Core Java Tutorial or Java Programming Tutorial is a widely use
 
 Let's have a quick look at java programming example. A detailed description of hello java example is given in next page.
 
-```javascript
     class Simple
     {  
         public static void main(String args[])
@@ -24,19 +23,19 @@ Let's have a quick look at java programming example. A detailed description of h
          System.out.println("Hello Java");  
         }  
     }
-```
+
 <h3>Where it is used?</h3>
 
 According to Sun, 3 billion devices run java. There are many devices where java is currently used. Some of them are as follows:
 
-* Desktop Applications such as acrobat reader, media player, antivirus etc.
-* Web Applications such as irctc.co.in, javatpoint.com etc.
-* Enterprise Applications such as banking applications.
-* Mobile
-* Embedded System
-* Smart Card
-* Robotics
-* Games etc.
+  * Desktop Applications such as acrobat reader, media player, antivirus etc.
+  * Web Applications such as irctc.co.in, javatpoint.com etc.
+  * Enterprise Applications such as banking applications.
+  * Mobile
+  * Embedded System
+  * Smart Card
+  * Robotics
+  * Games etc.
 
 <h3>Types of Java Applications</h3>
 

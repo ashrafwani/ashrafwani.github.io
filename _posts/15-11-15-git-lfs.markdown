@@ -8,10 +8,10 @@ categories: Design
 Need to store large media files in Git? GitHub making major contributions to the [Git LFS](https://github.com/github/git-lfs) open source project to help make this happen!
 Want to know how this came about? What follows is a true story…
 
-<h3>The challenge</h3>
+<h2>The challenge</h2>
 Git’s great. When it comes to keeping a handle on your source code, there’s nothing quite as flexible, and developers are adopting it in droves. But there are a lot of teams whose needs haven’t been particularly well met by Git in the past, whose projects consist of not just code, but media files or other large assets. People like game developers and web design studios are common examples, and in many cases Git’s inability to elegantly handle this issue has meant they’ve had to remain on older source control systems.
 
-<h3>The quest begins</h3>
+<h2>The quest begins</h2>
 So, in late 2014, GitHub started seriously looking at this issue. They tried everything that was out there already,
 and reluctantly concluded that the best way to solve this properly for the long term was to create a new tool.
 Creating a brand new tool wasn’t their first preference, but they felt that existing tools were either too complicated to configure for a team environment (once all the features you really needed like pruning were factored in) or were not fully developed enough and used technology we didn’t think would scale, so extending them wasn’t attractive.

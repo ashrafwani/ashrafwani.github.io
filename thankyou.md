@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Thank You
+<!-- title: Thank You -->
 permalink: /thankyou/
 ---
 <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<link rel="shortcut icon" href="/images/favicon.ico" />
+<!--	<link rel="shortcut icon" href="/images/favicon.ico" /> -->
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 </head>
 <body class="generic">

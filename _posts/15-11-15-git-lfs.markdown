@@ -5,31 +5,18 @@ date:   2015-11-15 11:52:54
 categories: Design
 ---
 
-Need to store large media files in Git? We’re making major contributions to the [Git LFS!](https://github.com/github/git-lfs) open source project to help make this happen!
+Need to store large media files in Git? GitHub making major contributions to the [Git LFS](https://github.com/github/git-lfs) open source project to help make this happen!
 Want to know how this came about? What follows is a true story…
 
 <h3>The challenge</h3>
-Git’s great. When it comes to keeping a handle on your source code, there’s nothing quite as flexible, and developers are adopting it in droves.
-But there are a lot of teams whose needs haven’t been particularly well met by Git in the past, whose projects consist of not just code,
-but media files or other large assets. People like game developers and web design studios are common examples,
-and in many cases Git’s inability to elegantly handle this issue has meant they’ve had to remain on older source control systems.
-
-I’m well aware of this problem myself, because before I came to work at [Atlassian!](http://www.atlassian.com/?utm_source=bb-blog&utm_medium=blog&utm_campaign=contributing-to-git-lfs) via creating [SourceTree!](https://www.sourcetreeapp.com/?utm_source=dac&utm_medium=blog&utm_campaign=contributing-to-git-lfs), I ran an open source graphics engine called Ogre3d for 10 years. I worked with a lot of teams with large textures, models, and so on in their repositories using pre-DVCS tools. In the years after, when I started making Git & Mercurial tools, I kept in contact with many of these people and witnessed frequent problems adopting Git because of large files clogging up repositories, slowing everything down, and making clone sizes intolerable. A few teams used Mercurial’s large- files extension, but many of them still wished they had the option of using Git as well.
-
-Atlassian has focused on serving the needs of professional software teams for the last 13 years and we’ve heard from many of our customers
-that they’ve struggled with the transition from legacy source code management systems to Git because of the lack of a good solution for the large files problem.
-Software teams really like using Git but this one problem is a real spanner in the works for their adoption plans.
-What could we do?
+Git’s great. When it comes to keeping a handle on your source code, there’s nothing quite as flexible, and developers are adopting it in droves. But there are a lot of teams whose needs haven’t been particularly well met by Git in the past, whose projects consist of not just code, but media files or other large assets. People like game developers and web design studios are common examples, and in many cases Git’s inability to elegantly handle this issue has meant they’ve had to remain on older source control systems.
 
 <h3>The quest begins</h3>
-So, in late 2014, we started seriously looking at this issue. We tried everything that was out there already,
+So, in late 2014, GitHub started seriously looking at this issue. They tried everything that was out there already,
 and reluctantly concluded that the best way to solve this properly for the long term was to create a new tool.
-Creating a brand new tool wasn’t our first preference, but we felt that existing tools were either too complicated
-to configure for a team environment (once all the features you really needed like pruning were factored in) or were
-not fully developed enough and used technology we didn’t think would scale, so extending them wasn’t attractive.
+Creating a brand new tool wasn’t their first preference, but they felt that existing tools were either too complicated to configure for a team environment (once all the features you really needed like pruning were factored in) or were not fully developed enough and used technology we didn’t think would scale, so extending them wasn’t attractive.
 
-We chose to write this new tool in [!Go](https://golang.org), a modern language that was both good at producing stand-alone, fast, native binaries for all platforms, but was also fairly easy for most developers to learn;
+GitHub chose to write this new tool in [Go](https://golang.org), a modern language that was both good at producing stand-alone, fast, native binaries for all platforms, but was also fairly easy for most developers to learn;
 important because we intended to make it open source.
 
-We initially called it [Git LOB!](https://github.com/atlassian/git-lob), and after working on it for a few months we attended Git Merge this May to announce it.
-
+GitHub initially called it [Git LOB](https://github.com/atlassian/git-lob).

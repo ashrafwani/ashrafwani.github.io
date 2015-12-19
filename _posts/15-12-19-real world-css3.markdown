@@ -5,8 +5,6 @@ date:   2015-12-19 11:56:00
 categories: Design
 ---
 
-<h2>Powerful HTML5 and CSS3 techniques you can use today!</h2>
-
 HTML5 & CSS3 for the Real World is your perfect introduction to the latest generation of web development technologies.
 This easy-to-follow guide covers everything you need to get started. You’ll master the semantic markup available in HTML5,
 and discover how to use CSS3 to create amazing-looking websites without resorting to complex workarounds.

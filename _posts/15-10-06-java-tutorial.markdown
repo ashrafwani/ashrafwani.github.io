@@ -56,3 +56,6 @@ An application that is distributed in nature, such as banking applications etc. 
 <h6>4) Mobile Application</h6>
 
 An application that is created for mobile devices. Currently Android and Java ME are used for creating mobile applications.
+
+
+<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@ashrafwani/java-tutorial-78fed2209dae#.qek5m6pdv">Java Tutorial</a>

@@ -16,11 +16,11 @@ Learning a new task can be difficult. You may have limited time to invest in por
 specifications for these web-based languages. You also might be turned off by some of the overly technical books that
 work well as references but provide little in the way of real-world, practical examples.
 
-our goal with this book is to help you learn through hands-on, practical instruction that will assist you to tackle the
+Our goal with this book is to help you learn through hands-on, practical instruction that will assist you to tackle the
 real-world problems you face in building websites today—with a specific focus on HTML5 and CSS3.
 But this is more than just a step-by-step tutorial. Along the way, we’ll provide plenty of theory and technical information
 to help fill in any gaps in your understanding— the whys and hows of these new technologies—while doing our best not
 to overwhelm you with the sheer volume of cool new stuff.
 
 
-<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@ashrafwani/html5-css3-for-the-real-world-is-your-perfect-introduction-to-the-latest-generation-of-web-eaea9b996d16#.z5a2f9lhk">Real World - CSS3</a>
+<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@ashrafwani/real-world-css3-42ae60c9058d#.poyzgi5xo">Real World - CSS3</a>

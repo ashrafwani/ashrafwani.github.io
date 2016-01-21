@@ -21,3 +21,6 @@ real-world problems you face in building websites today—with a specific focus 
 But this is more than just a step-by-step tutorial. Along the way, we’ll provide plenty of theory and technical information
 to help fill in any gaps in your understanding— the whys and hows of these new technologies—while doing our best not
 to overwhelm you with the sheer volume of cool new stuff.
+
+
+<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@ashrafwani/html5-css3-for-the-real-world-is-your-perfect-introduction-to-the-latest-generation-of-web-eaea9b996d16#.z5a2f9lhk">Real World - CSS3</a>

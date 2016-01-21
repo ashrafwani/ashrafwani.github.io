@@ -20,3 +20,6 @@ GitHub chose to write this new tool in [Go](https://golang.org), a modern langua
 important because we intended to make it open source.
 
 GitHub initially called it [Git LOB](https://github.com/atlassian/git-lob).
+
+
+<script async src="https://static.medium.com/embed.js"></script><a class="m-story" data-collapsed="true" href="https://medium.com/@ashrafwani/git-lfs-48d5fbfd82e#.sseyfxi3j">Corporate culture</a>

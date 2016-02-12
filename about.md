@@ -49,8 +49,6 @@ The *Microsoft Certified Solution Developer (MCSD)* certification helps validate
 The *HCL Certified Software Engineer (HCSE)* certification provides hi-tech training in the stream of Software Development, Testing, SDLC, Impelementation, Support, Mantenance and helps validate the comprehensive soft skills needed to develop desktop applications using Microsoft Visual Studio® and .NET Framework 4.
 
 
-<div class="hire"><a href="http://1drv.ms/1QcdVzK">Get Resume</a></div>
-
 <div class="hire"><a href="/resume/resume.pdf">Get Resume</a></div>
 
 

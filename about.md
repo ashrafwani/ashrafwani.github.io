@@ -52,7 +52,7 @@ The *HCL Certified Software Engineer (HCSE)* certification provides hi-tech trai
 <div class="hire"><a href="/resume/resume.pdf">Get Resume</a></div>
 
 
-<iframe src="https://onedrive.live.com/embed?cid=048BA93FDC387B10&resid=48BA93FDC387B10%2117412&authkey=AGS-Tm2LFjREhO8&em=2" width="776" height="288" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://onedrive.live.com/embed?cid=048BA93FDC387B10&resid=48BA93FDC387B10%2117412&authkey=AGS-Tm2LFjREhO8&em=2" width="850" height="288" frameborder="0" scrolling="no"></iframe>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>

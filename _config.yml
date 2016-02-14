@@ -12,3 +12,5 @@ permalink: pretty
 # Gems
 gems:
    - jekyll-sitemap
+gems:
+  - jekyll-feed

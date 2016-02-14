@@ -1,9 +1,12 @@
 # Site settings
 title: Ashraf Wani
-email: im@ashrafwani.com
 description: "Microsoft Certified Professional Developer"
 baseurl: ""
 url: "http://ashrafwani.com"
+author: "Ashraf Wani"
+name: Ashraf Wani
+email: im@ashrafwani.com
+uri: http://ashrafwani.com/about
 
 # Build settings
 markdown: kramdown

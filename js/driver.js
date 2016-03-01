@@ -1,4 +1,5 @@
-(function() {
+(function ($) {
+  $(document).ready(function() {
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
 
@@ -181,5 +182,47 @@
     function getDistance(p1, p2) {
         return Math.pow(p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2);
     }
+    
 
-})();
+    function addLink() {
+    //Get the selected text and append the extra info
+    var selection = window.getSelection(),
+        pagelink = '<br /><br /> This content is part of Article on:  ' + document.location.href,
+        copytext = selection + pagelink,
+        newdiv = document.createElement('div');
+
+    //hide the newly created container
+    newdiv.style.position = 'absolute';
+    newdiv.style.left = '-99999px';
+
+    //insert the container, fill it with the extended text, and define the new selection
+    document.body.appendChild(newdiv);
+    newdiv.innerHTML = copytext;
+    selection.selectAllChildren(newdiv);
+
+    window.setTimeout(function () {
+        document.body.removeChild(newdiv);
+      }, 100);
+    }
+
+    document.addEventListener('copy', addLink);
+
+    //Smooth scroll
+
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1500);
+          return false;
+        }
+      }
+    });
+
+  });
+
+    
+})(jQuery);

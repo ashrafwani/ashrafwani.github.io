@@ -16,6 +16,11 @@ permalink: /contact/
     </form>
 </div>
 
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560ecd304a2437ec" async="async"></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_horizontal_follow_toolbox"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow79.js"></script>

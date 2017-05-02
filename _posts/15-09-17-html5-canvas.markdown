@@ -3,6 +3,7 @@ layout: post
 title:  "HTML5 Canvas"
 date:   2015-09-17 08:45:54
 categories: Design
+permalink: blog/html5-canvas
 ---
 
 Welcome to Basic Tutorials! In these tutorials we'll focus on the fundamental drawing capabilities of the HTML5 Canvas.

@@ -3,6 +3,7 @@ layout: post
 title:  "Java Tutorial"
 date:   2015-10-06 22:19:00
 categories: Design
+permalink: blog/java-tutorials
 ---
 
 Java Tutorial or Core Java Tutorial or Java Programming Tutorial is a widely used robust technology. Let's start learning of java from basic questions like what is java tutorial, core java, where it is used, what type of applications are created in java and why use java. 

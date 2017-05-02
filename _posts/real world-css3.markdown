@@ -3,6 +3,7 @@ layout: post
 title:  "Real World - CSS3"
 date:   2015-12-19 11:56:00
 categories: Design
+permalink: blog/real-world-css3
 ---
 
 HTML5 & CSS3 for the Real World is your perfect introduction to the latest generation of web development technologies.

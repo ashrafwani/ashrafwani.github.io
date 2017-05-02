@@ -3,6 +3,7 @@ layout: post
 title:  "Git LFS"
 date:   2015-11-15 11:52:54
 categories: Design
+permalink: blog/git-lfs
 ---
 
 Need to store large media files in Git? GitHub making major contributions to the [Git LFS](https://github.com/github/git-lfs) open source project to help make this happen!

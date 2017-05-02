@@ -72,3 +72,67 @@ declare(ticks=1);
 // entire script here
 ?>
 ```
+
+<h3>Require</h3>
+
+The require() statement includes and evaluates a specific file. The require() and include() statements are similar in every way except how they handle errors. When there is an error the include() statement produces a warning but the require() statement results in a fatal error. The require statement is used when you want a missing file to halt the processing of the page. In this case, if include() is used even then the script will keep on running regardless of the missing file.
+
+<h5>Example</h5>
+
+```javascript
+<?php
+require 'welcome.php';
+require $welcomefile;
+require ('welcomefile.txt');
+?>
+```
+
+<h3>Include</h3>
+
+The include() statement includes and evaluates a specified file. The include() statement works in the same way as the require() statement. The basic difference between them is that when an error occurs the include() statement gives a warning whereas the require() statement gives a fatal error.
+
+<h5>Example</h5>
+
+```javascript
+fruit.php
+<?php
+$color = 'red';
+$fruit = 'apple';
+?>
+test.php
+<?php
+echo "A $color $fruit"; // A
+include 'vars.php';
+echo "A $color $fruit"; // A red apple
+?>
+```
+ 
+<h3>Variable Functions</h3>
+
+There is a concept of variable functions in PHP. The concept of variable function is that if a variable name has parentheses appended to it, then PHP will look for the function with the same name as the variable and will try to execute it. This can be used to implement callbacks and function tables.
+
+<h5>Example</h5>
+
+```javascript
+<?php
+function fun() {
+echo "In fun()<br />\n";
+}
+function abc
+($arg = '')
+{
+echo "In abc(); argument was '$arg'.<br />\n";
+}
+// This is a wrapper function around echo
+function echoit($string)
+{
+echo $string;
+}
+$func = 'fun';
+$func(); // This calls fun()
+$func = 'abc';
+$func('test'); // This calls abc()
+$func = 'echoit';
+$func('test'); // This calls echoit()
+?>
+```

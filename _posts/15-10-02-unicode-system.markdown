@@ -3,6 +3,7 @@ layout: post
 title:  "Unicode System"
 date:   2015-10-02 08:55:00
 categories: Design
+permalink: blog/unicode-system
 ---
 
 Unicode is a universal international standard character encoding that is capable of representing most of the world's written languages.

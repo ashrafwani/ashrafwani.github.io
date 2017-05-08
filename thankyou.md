@@ -18,10 +18,6 @@ permalink: /thankyou/
 			<div class="head">
 				<h3>...Your request has been successfully submitted!</h3>
 			</div>
-			<div class="body">
-				<a href="#" class="vid"><img src="/images/code.jpg" width="640" height="360" alt="" /></a>
-
-			</div>
 			<div class="bottom">
 				<div class="inner">
 					<p>Thanks for all that you do. <br /> Talk soon,</p>

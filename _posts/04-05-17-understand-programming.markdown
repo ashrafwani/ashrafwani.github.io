@@ -6,7 +6,7 @@ categories: Design
 permalink: blog/understand-programming
 ---
 
-Whether you’re currently pursuing a degree in computer science, an aspiring self-taught developer, or a coding boot camp student, mastering the craft of programming is a perpetual struggle. <mark>Here are seven tips to understang programming.</mark>
+Whether you’re currently pursuing a degree in computer science, an aspiring self-taught developer, or a coding boot camp student, mastering the craft of programming is a perpetual struggle. <mark>Here are some tips to understang programming.</mark>
 
 ![](http://www.codingdojo.com/blog/wp-content/uploads/0-Splash-Picture-CoDoj-Blog.png)
 
@@ -16,7 +16,7 @@ Whether you’re currently pursuing a degree in computer science, an aspiring se
 
 <h2>2. Grasp the fundamentals for long-term benefits</h2>
 
-As elementary as they may appear at first, <b>programming fundamentals always need to come first: the better you understand them, the easier it is to learn more advanced concepts.</b> From our experience at Coding Dojo, students who rush through the beginning of our software bootcamp – where our course focuses most on web development fundamentals – are often the first to get stuck as we transition into more advanced material, such as back-end programming. So before you ditch the first class of computer science 101, or skip chapter one of an online tutorial, keep in mind that you are overlooking the most important step in your learning.
+As elementary as they may appear at first, <b>programming fundamentals always need to come first: the better you understand them, the easier it is to learn more advanced concepts.</b> Students who rush through the beginning of software bootcamp – where our course focuses most on web development fundamentals – are often the first to get stuck as we transition into more advanced material, such as back-end programming. So before you ditch the first class of computer science 101, or skip chapter one of an online tutorial, keep in mind that you are overlooking the most important step in your learning.
 
 <h2>3. Code by hand. It sharpens proficiency and you’ll need it to get a job</h2>
 

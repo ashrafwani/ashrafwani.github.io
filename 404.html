@@ -32,26 +32,6 @@ body {
 	border: 1px solid #f06060;
 	border-radius: 40%;
 	color: #f06060;
-}
-.error {
-    position: absolute;
-    top: 40%;
-    left: 30%;
-    margin-left: 0;
-    font-size: 24px;
-    color: #666;
-    width: 600px;
-}
-.error-input {
-    font-size: 22px;
-    border: 0;
-    outline: 0;
-    padding: 0;
-    margin: 0;
-    background: transparent;
-}
-div {
-    display: block;
 }	
 </style>
 
@@ -78,14 +58,10 @@ div {
   </head>
   <body class="error-page">
     <a href="/"><img class="image" src="/images/404.png" width="64" title="The sad face"></a>
-<div class="error">
-  Error<br>
-  <input id="error-text" class="error-input" size="55" readonly="readonly"><br><br>
-</div>
 	  
-<script type="text/javascript">
-var text = "This is not the chat you\'re looking for.---------------- Sorry.-------- :(";var input = $("#error-text");input.select();setTimeout(startTyping, 1000, input, text);function startTyping(input, text) {for ( var i = 0; i < text.length; i++ ) {setTimeout(addText,120*i, input, text.charAt(i));}}function addText(i,c) {if (c !== "-") i.val( i.val() + c );}
-</script>
+	<script type="text/javascript">
+	var text = "This is not the chat you\'re looking for.---------------- Sorry.-------- :(";var input = $("#error-text");input.select();setTimeout(startTyping, 1000, input, text);function startTyping(input, text) {for ( var i = 0; i < text.length; i++ ) {setTimeout(addText,120*i, input, text.charAt(i));}}function addText(i,c) {if (c !== "-") i.val( i.val() + c );}
+	</script>
 
   </body>
 </html>

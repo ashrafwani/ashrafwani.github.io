@@ -3,42 +3,60 @@ layout: none
 title: 404
 permalink: /404.html
 ---
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-family: "open sans", Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+}
+body {
+	position: relative;
+	text-align: center;
+	background-color: #f06060;
+}
+h3 {
+	font-size: 20em;
+	color: #fff;
+}
+.drunk {
+	max-width: 550px;
+	margin: auto;
+}
+p{
+	font-weight: 800;
+	font-size: 3em;
+	color: #f48f8f;
+}
+.go-home {
+	
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+}
+.go-home a {
+	font-size: 1em;
+	font-weight: 100;
+	display: inline-block;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	border: 1px solid #f48f8f;
+	border-radius: 40%;
+	color: #fff;
+}
+</style>
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Gitter – Not Found</title>
-    <meta charset="utf-8">
-    <meta name="google-site-verification" content="nnoWjW8hKT4umkqn1UrCdVHtLs8Q2pDi5ek0x5PUHug" />
+<title>Page not found · Ashraf Wani</title>
 
-    <link rel="shortcut icon" href="//cdn01.gitter.im/_s/88aafe0/images/favicon-error.ico">
-    <link rel="stylesheet" href="//cdn02.gitter.im/_s/88aafe0/styles/error-layout.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script type="text/javascript">
-      window.addEventListener("message", function(e) {
-        if (e.data && e.data.type === 'oauth_upgrade_complete') {
-          window.location.reload(true);
-        }
-      }, false);
+<h3>404</h3>
 
-      $(document).ready(function() {
-        $('#upgrade').on('click', function(e) {
-          e.preventDefault();
-          window.open('/login/upgrade?scopes=repo');
-        });
-      });
-    </script>
-  </head>
-  <body class="error-page">
-    <a href="/"><img class="image" src="//cdn03.gitter.im/_s/88aafe0/images/icon-logo-red-64@2x.png" width="64" title="The sad face"></a>
-<div class="error">
-  Gitter<br>
-  <input id="error-text" class="error-input" size="55" readonly="readonly"><br><br>
-
-
+<div class="drunk">
+	<p>This isn't the web page you are looking for.</p>
 </div>
-<script type="text/javascript">
-var text = "404. This is not the chat you\'re looking for.---------------- Sorry.-------- :(";var input = $("#error-text");input.select();setTimeout(startTyping, 1000, input, text);function startTyping(input, text) {for ( var i = 0; i < text.length; i++ ) {setTimeout(addText,120*i, input, text.charAt(i));}}function addText(i,c) {if (c !== "-") i.val( i.val() + c );}</script>
 
-  </body>
-</html>
+<div class="go-home">
+	<a href="/contact">contact adminstrator</a>
+	<a href="http://ashrafwani.com">go back home</a>
+</div>

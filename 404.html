@@ -78,7 +78,11 @@ div {
   </head>
   <body class="error-page">
     <a href="/"><img class="image" src="/images/404.png" width="64" title="The sad face"></a>
-	  
+	<div class="error">
+	  Error<br>
+	  <input id="error-text" class="error-input" size="55" readonly="readonly"><br><br>
+	</div>
+	
 	<script type="text/javascript">
 	var text = "This is not the chat you\'re looking for.---------------- Sorry.-------- :(";var input = $("#error-text");input.select();setTimeout(startTyping, 1000, input, text);function startTyping(input, text) {for ( var i = 0; i < text.length; i++ ) {setTimeout(addText,120*i, input, text.charAt(i));}}function addText(i,c) {if (c !== "-") i.val( i.val() + c );}
 	</script>

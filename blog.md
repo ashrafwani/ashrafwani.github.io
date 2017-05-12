@@ -16,7 +16,7 @@ permalink: /blog/
 </div>
 
 <!-- Amazon Ads -->
-<iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=26&l=ur1&category=amazonhomepage_2017&f=ifr&linkID=0bbcdbc82f33859381c9c3490fc00768&t=ashrafwani-20&tracking_id=ashrafwani-20" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+<iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=288&l=ur1&category=amazonhomepage_2017&f=ifr&linkID=e967f6e96600883b0ee0db53980b2db7&t=ashrafwani-20&tracking_id=ashrafwani-20" width="320" height="50" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 
 <!-- Amazon Mobile Popover -->
 <script type="text/javascript">

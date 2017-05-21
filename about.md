@@ -12,7 +12,6 @@ Originally beginning my career as a Microsoft Technology Evangelist and a Studen
 
 Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 
-
 <div class="hire"><a href="/contact">I am currently available for Hire</a></div>
 
 > <h2>Awards and Achievements</h2>
@@ -21,7 +20,6 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 <h6>Microsoft Student Partner</h6>
 </div>
 ![](/images/msp.png)
-<div class="hire"><a href="/resume/resume.pdf">view c</a></div>
 
 *Microsoft Student Partners* is an exclusive community of students who have the power to make a difference. The technical skills and leadership skills, passion for technology, and willingness to share expertise is being acknowledged by the selection as a Microsoft Student Partner.
 
@@ -56,7 +54,6 @@ The *Microsoft Certified Solution Developer (MCSD)* certification helps validate
 <h6>HCL Certified Software Engineer (HCSE)</h6>
 </div>
 The *HCL Certified Software Engineer (HCSE)* certification provides hi-tech training in the stream of Software Development, Testing, SDLC, Impelementation, Support, Mantenance and helps validate the comprehensive soft skills needed to develop desktop applications using Microsoft Visual Studio® and .NET Framework 4.
-
 
 <div class="hire"><a href="/resume/resume.pdf">Get Resume</a></div>
 

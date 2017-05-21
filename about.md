@@ -18,8 +18,9 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 > <h2>Awards and Achievements</h2>
 <div class="talks">
 <div class="timed">December, 2011</div>
-<h6>Microsoft Student Partner</h6> ![](/images/msp.png)
+<h6>Microsoft Student Partner</h6>
 </div>
+![](/images/msp.png)
 *Microsoft Student Partners* is an exclusive community of students who have the power to make a difference. The technical skills and leadership skills, passion for technology, and willingness to share expertise is being acknowledged by the selection as a Microsoft Student Partner.
 
 <div class="talks">

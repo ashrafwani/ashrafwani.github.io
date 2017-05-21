@@ -18,15 +18,18 @@ Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 > <h2>Awards and Achievements</h2>
 <div class="talks">
 <div class="timed">December, 2011</div>
-<h6>Microsoft Student Partner</h6> ![](/images/msp.png)
+<h6>Microsoft Student Partner</h6>
 </div>
-![](/images/msp.png)
+![](/images/msp.png) <div class="hire"><a href="/resume/resume.pdf">view c</a></div>
+
 *Microsoft Student Partners* is an exclusive community of students who have the power to make a difference. The technical skills and leadership skills, passion for technology, and willingness to share expertise is being acknowledged by the selection as a Microsoft Student Partner.
 
 <div class="talks">
 <div class="timed">September, 2012</div>
 <h6>Guinness World Record Holder</h6>
 </div>
+![](/images/worldrecord.png)
+
 The most participants in a software development marathon in one location was achieved by Microsoft (India) in Bangalore, India.
 
 
@@ -35,12 +38,16 @@ The most participants in a software development marathon in one location was ach
 <div class="timed">December, 2012</div>
 <h6>Microsoft Certified Professional Developer (MCPD)</h6>
 </div>
+![](/images/mcpd.png)
+
 The *Microsoft Certified Professional Developer (MCPD)* certification enables IT Professionals to demonstrate comprehensive skills needed to designing, developing and Deploying Windows Applications using Microsoft Visual Studio® and .NET Framework 4 for a particular job role.
 
 <div class="talks">
 <div class="timed">January, 2013</div>
 <h6>Microsoft Certified Solution Developer (MCSD)</h6>
 </div>
+![](/images/mcsd.png)
+
 The *Microsoft Certified Solution Developer (MCSD)* certification helps validate the comprehensive skills needed to Designing and Developing Windows 8 Metro Style Applications using Microsoft Visual Studio® 2012 with HTML5, JavaScript and CSS3.
 
 <div class="talks">

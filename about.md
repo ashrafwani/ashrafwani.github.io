@@ -8,7 +8,7 @@ I am a Kashmir-native Designer, Developer, Speaker, Blogger, Researcher and a pr
 
 My interests range from Conflict to History to Fashion to Social Entrepreneurship. I am mostly interested for job opportunities in Middle East, preferably in Dubai, (UAE). I have an ability to communicate in 5(five) languages, I know English, Urdu, Kashmiri, Hindi and Arabic - Kashmiri being my mother tongue. Good understanding of World politics and diplomacy, crowd-control skills, very good listening skills, and a whole lot more. I owe my college and my teachers a lot, I owe them my whole career. After all the complaints and all the disagreements, I still love my college for the whole new life that it has given me and the whole new way of life that it has shown me.
 
-Originally beginning my career as a Microsoft Technology Evangelist and a Student Developer at [Microsoft](http://developer.microsoft.com) speaker at various events/tech-sessions across Kashmir. I am an IT professional certified by Microsoft and HCL motivated by challenging projects and deadlines. My focus is on .NET, Java, HTML5, CSS3, JavaScript and I am with some of my colleague/friends organising Free Events on technologies. If you have any question or want to take part, You are very much welcomed.
+Originally beginning my career as a Microsoft Technology Evangelist and a Student Developer at [Microsoft](http://developer.microsoft.com) speaker at various events/tech-sessions across Kashmir. I am an IT professional certified by Microsoft and HCL motivated by challenging projects and deadlines. My focus is on PHP, Drupal, HTML5, CSS3, JavaScript and I am with some of my colleague/friends organising Free Events on technologies. If you have any question or want to take part, You are very much welcomed.
 
 Just mail me at im@ashrafwani.com or message via [contact](/contact) form
 
@@ -56,6 +56,12 @@ The *Microsoft Certified Solution Developer (MCSD)* certification helps validate
 The *HCL Certified Software Engineer (HCSE)* certification provides hi-tech training in the stream of Software Development, Testing, SDLC, Impelementation, Support, Mantenance and helps validate the comprehensive soft skills needed to develop desktop applications using Microsoft Visual Studio® and .NET Framework 4.
 
 <div class="hire"><a href="/resume/resume.pdf">Get Resume</a></div>
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'faLEwhkikw';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+<!-- {/literal} END JIVOSITE CODE -->
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560ecd304a2437ec"></script> 

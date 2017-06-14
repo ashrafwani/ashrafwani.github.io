@@ -21,10 +21,15 @@ permalink: /blog/
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 <!-- {/literal} END JIVOSITE CODE -->
 
-<!-- Ebay Ad Tag -->
+<!-- Ebay Ad Tag: 1 -->
 <div id="ebayindia2lJw7xP"></div>
 <script src="http://ebayindia.go2cloud.org/aff_ad?campaign_id=2&aff_id=8198&format=javascript&format=js&divid=ebayindia2lJw7xP" type="text/javascript"></script>
 <noscript><iframe src="http://ebayindia.go2cloud.org/aff_ad?campaign_id=2&aff_id=8198&format=javascript&format=iframe" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="160" height="140"></iframe></noscript>
+<!-- // End Ad Tag -->
+
+<!-- Ebay Ad Tag: 2 -->
+<div id="ebayindia490PvXjvl"></div>
+<script src="http://ebayindia.go2cloud.org/aff_ad?campaign_id=490&aff_id=8198&format=javascript&format=js&divid=ebayindia490PvXjvl" type="text/javascript"></script>
 <!-- // End Ad Tag -->
 
 <!-- Amazon Ads -->

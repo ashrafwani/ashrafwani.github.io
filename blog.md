@@ -21,6 +21,12 @@ permalink: /blog/
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 <!-- {/literal} END JIVOSITE CODE -->
 
+<!-- Ebay Ad Tag: 2 -->
+<div id="ebayindia2lJw7xP"></div>
+<script src="http://ebayindia.go2cloud.org/aff_ad?campaign_id=2&aff_id=8198&format=javascript&format=js&divid=ebayindia2lJw7xP" type="text/javascript"></script>
+<noscript><iframe src="http://ebayindia.go2cloud.org/aff_ad?campaign_id=2&aff_id=8198&format=javascript&format=iframe" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" width="160" height="140"></iframe></noscript>
+<!-- // End Ad Tag -->
+
 <!-- Amazon Ads -->
 <iframe src="//rcm-na.amazon-adsystem.com/e/cm?o=1&p=288&l=ur1&category=amazonhomepage_2017&f=ifr&linkID=e967f6e96600883b0ee0db53980b2db7&t=ashrafwani-20&tracking_id=ashrafwani-20" width="320" height="50" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 

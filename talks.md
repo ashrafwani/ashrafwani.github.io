@@ -6,8 +6,9 @@ permalink: /talks/
 
 
 <div class="talks">
-<div class="timed">22 October, 2017</div>
-<h6>Kashmir Dribbble Meetup</h6>
+<div class="timed">22 October, 2017</div><coming>Coming Up</coming>
+<h6>ThinkPod, Srinagar</h6>
+<h4><b>Kashmir Dribbble Meetup</b></h4>
 <h4>available soon</h4>
 </div>
 
@@ -55,7 +56,8 @@ permalink: /talks/
 
 <div class="talks">
 <div class="timed">15 July, 2012</div>
-<h6>Microsoft Dreamspark, Convocation Complex Kashmir University.</h6>
+<h6>Convocation Complex Kashmir University.</h6>
+<h4><b>Microsoft DreamSpark</b></h4>
 <h4>Windows 7 Application Development</h4>
 </div>
 

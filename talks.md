@@ -6,6 +6,12 @@ permalink: /talks/
 
 
 <div class="talks">
+<div class="timed">22 October, 2017</div>
+<h6>Kashmir Dribbble Meetup</h6>
+<h4>available soon</h4>
+</div>
+
+<div class="talks">
 <div class="timed">12 July, 2014</div>
 <h6>SSM College of Engineering & Technology.</h6>
 <h4>HTML5 - CSS3, JavaScript A Practical Guide</h4>

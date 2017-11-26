@@ -10,7 +10,7 @@ permalink: /talks/
 <h6>ThinkPod, Srinagar</h6>
 <h4><b>Kashmir Dribbble Meetup</b></h4>
 <h4>Designing Teams for Emerging Challenges</h4>
-<a href="https://www.eventbrite.com/e/kashmir-dribbble-meetup-tickets-38588861323">Register to get your seat</a>
+<a href="https://dribbble.com/stories/2017/11/16/october-dribbble-meetup-wrap-up">Wrap-Up</a>
 </div>
 
 <div class="talks">

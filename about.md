@@ -10,7 +10,7 @@ My interests range from Conflict to History to Fashion to Social Entrepreneurshi
 
 Originally beginning my career as a Microsoft Technology Evangelist and a Student Developer at [Microsoft](http://developer.microsoft.com) speaker at various events/tech-sessions across Kashmir. I am an IT professional certified by Microsoft and HCL motivated by challenging projects and deadlines. My focus is on PHP, Drupal, HTML5, CSS3, JavaScript and I am with some of my colleague/friends organising Free Events on technologies. If you have any question or want to take part, You are very much welcomed.
 
-Just mail me at im@ashrafwani.com or message via [contact](/contact) form
+Just mail me at ashrafwani@outlook.com or message via [contact](/contact) form
 
 <div class="hire"><a href="/contact">I am currently available for Hire</a></div>
 

@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 gemspec
 
-gem 'rake', '~> 10.1'
+gem "rake", ">= 12.3.3"
 group :development do
-  gem 'rdoc', '~> 4.2'
+  gem "rdoc", ">= 6.3.1"
   gem 'launchy', '~> 2.3'
   gem 'toml', '~> 0.1.0'
   gem 'pry'
@@ -44,7 +44,7 @@ gem 'jekyll-coffeescript', '~> 1.0'
 gem 'jekyll-feed'
 gem 'jekyll-gist', '~> 1.0'
 gem 'mime-types', '~> 2.6'
-gem 'kramdown', '~> 1.8.0'
+gem "kramdown", ">= 2.3.0"
 
 platform :ruby, :mswin, :mingw do
   gem 'rdiscount', '~> 2.0'

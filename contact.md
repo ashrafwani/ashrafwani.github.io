@@ -28,7 +28,7 @@ permalink: /contact/
 <!-- Facebook Follow Button -->
 <iframe src="https://www.facebook.com/plugins/follow?href=https%3A%2F%2Fwww.facebook.com%2Faashuvani&amp;layout=standard&amp;show_faces=true&amp;colorscheme=light&amp;width=450&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:80px;" allowTransparency="false"></iframe>
 
-<a href="mailto:ashrafwani@outlook.com"><i class="fa fa-envelope"></i><p>Email Me</p></a>
+<a href="mailto:ashrafwani@outlook.com"><i class="fa fa-envelope"></i>Email Me</a>
 
 <!-- Start of Async Drift Code -->
 <script>

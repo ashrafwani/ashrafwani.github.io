@@ -1,90 +1,84 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <title>Beta | Ashraf Wani</title>
-    <meta name="author" content="Sam Norton">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+---
+layout: layout
+---
+<div class="home">
+  <div id="background">
+    <a href="/"><img class="ashraf-background" src="images/ashraf.png" alt="ashrafwani"/></a>
+    <div class="teaser">
+      <p>
+        Certified Professional Developer<br>
+        Technology Evangelist | Developer | Social Media Marketing Specialist | Blogger | Speaker | Dribbbler | Adventurer | Foodie
+      </p>
+    </div>
+  </div>
 
-    <link rel="stylesheet" href="css/normalize.css" media="all">
-    <link rel="stylesheet" href="css/style.css" media="all">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Raleway:400,200,300,500,700,600,800,900' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+      </li>
+    {% endfor %}
+  </ul>
 
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/device.min.js"></script> <!--OPTIONAL JQUERY PLUGIN-->
-    <script src="js/jquery.mb.YTPlayer.js"></script>
-    <script src="js/custom.js"></script>
-    <meta name="robots" content="noindex,follow" />
-</head>
-
-<body>
-
-    <section class="big-background">
-        <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=SLaYPmhse30',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}"></a>
-
-        <div class="pattern"></div>
-            <div class="big-background-container">
-                    <img src="/images/ashraf.png">
-                    <div class="divider"></div>
-                    <h1 id="colorize">microsoft certified professional developer</h1>
-            </div>
-    </section>
-
-    
-    <div class="wrapper">
-    <section class="about-section">
-      <div class="about-section-container">
-          <h2 class="about-section-title">About Me</h2>
-          <p>Want to know more about me?<br/></p>
-          <a href="/beta/about.md" target="_blank" class="about-section-btn">About Me</a>
-      </div>
-    </section>
-
-    <section class="small-background-section">
-      <div class="pattern"></div>
-         <div class="small-background-container">
-         <h2 class="small-background-title"><span>Get latest Posts</span></h2>
-         <p>
-         <a href="/beta/blog.md" target="_blank" class="about-section-btn">Show More</a>
-       </div>
-    </section>
-    
-    <div class="wrapper">
-    <section class="about-section">
-      <div class="about-section-container">
-          <h2 class="about-section-title">BE THE PART OF EVENTS, SESSIONS & MUCH MORE</h2>
-          <p>Wondering how you might join me there?<br/>
-            Check out calander for more details, You will find event schedules an so on.</p>
-          <a href="/beta/talks.md" target="_blank" class="about-section-btn">Check it here</a>
-      </div>
-    </section>
-
-     <section class="small-background-section">
-     <div class="pattern"></div>
-                    <div class="small-background-container">
-                        <h2 class="small-background-title"><span>Find me on social media</span></h2>
-                         <ul class="socials">
-                        <li><a href="https://facebook.com/aashuvani" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a></li>
-                        <li><a href="https://twitter.com/m_ashraf_wani" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a></li>
-                        <li><a href="https://linkedin.com/in/ashrafwani" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
-                        <li><a href="https://plus.google.com/+AshrafWaniA" target="_blank"><i class="fa fa-google-plus-square fa-3x"></i></a></li>
-                        <li><a href="https://instagram.com/ashraf.wani" target="_blank"><i class="fa fa-instagram fa-3x"></i></a></li>
-                        <li><a href="https://github.com/ashrafwani" target="_blank"><i class="fa fa-github-square fa-3x"></i></a></li>
-                        </ul>
-                    </div>
-    </section>
-
-    <section class="about-section">
-                <div class="about-section-container">
-                    <h2 class="about-section-title">SAY HELLO!</h2>
-                    <p>If you have any suggestions or you just want to say hello be sure to mail me.<br/>
-                    It’s important for me to hear your opinion about my projects.</p>
-                    <a href="/beta/contact.md" target="_blank" class="about-section-btn">Contact me</a>
-                </div>
-    </section>
-
-
+  <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></p>
 </div>
 
-</body>
-</html>
+<!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('um2ve8c5pcxu');
+</script>
+<!-- End of Async Drift Code -->
+
+<!-- Flipkart Ads -->
+<div data-WRID="WRID-149708497661973535" data-widgetType="staticBanner" data-responsive="yes" data-class="affiliateAdsByFlipkart" height="90" width="728"></div><script async src="//affiliate.flipkart.com/affiliate/widgets/FKAffiliateWidgets.js"></script>
+<div data-WRID="WRID-149708361510348653" data-widgetType="Push Content" data-responsive="yes" data-class="affiliateAdsByFlipkart" height="90" width="728"></div><script async src="//affiliate.flipkart.com/affiliate/widgets/FKAffiliateWidgets.js"></script>
+  
+<!-- Amazon Mobile Popover -->
+<script type="text/javascript">
+    amzn_assoc_ad_type = "link_enhancement_widget";
+    amzn_assoc_tracking_id = "ashrafwani-20";
+    amzn_assoc_linkid = "a215ea36750f40d6d9243153f2d5d2ab";
+    amzn_assoc_placement = "";
+    amzn_assoc_marketplace = "amazon";
+    amzn_assoc_region = "US";
+</script>
+<script src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=US"></script>
+
+          <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-61936575-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560ecd304a2437ec"></script> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow79.js"></script>
+<noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>

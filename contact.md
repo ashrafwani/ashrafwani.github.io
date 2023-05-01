@@ -30,6 +30,25 @@ permalink: /contact/
 
 <a class="twitter-timeline" href="https://twitter.com/m_ashraf_wani?ref_src=twsrc%5Etfw">Tweets by Ashraf Wani</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+      <style>
+        .libutton {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 7px;
+          text-align: center;
+          outline: none;
+          text-decoration: none !important;
+          color: #ffffff !important;
+          width: 200px;
+          height: 32px;
+          border-radius: 16px;
+          background-color: #0A66C2;
+          font-family: "SF Pro Text", Helvetica, sans-serif;
+        }
+      </style>
+<a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=ashrafwani" target="_blank">Follow on LinkedIn</a>
+
 <!-- Start of Async Drift Code -->
 <script>
 !function() {

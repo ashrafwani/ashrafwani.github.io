@@ -6,8 +6,6 @@ categories: code
 permalink: blog/sql-for-analytics
 ---
 
-# SQL for Analytics
-
 SQL (Structured Query Language) is a powerful programming language used for managing and manipulating relational databases. It is widely used in analytics to extract valuable insights from data. In this article, we will explore some essential SQL queries and their applications in analytics, along with relevant examples.
 
 ## 1. Retrieving Data

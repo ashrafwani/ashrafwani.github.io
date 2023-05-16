@@ -2,7 +2,7 @@
 layout: post
 title:  Introduction to SQL in GitHub
 date:   2023-04-25 12:00:00
-categories: new
+categories: code
 permalink: blog/sql-in-github
 ---
 

@@ -6,8 +6,6 @@ categories: code
 permalink: blog/sql-in-github
 ---
 
-## Introduction to SQL for GitHub
-
 GitHub is a popular platform for hosting and collaborating on software projects. While it primarily focuses on version control and source code management, GitHub also provides an extensive API and a web interface that allows users to interact with their repositories and data. One powerful way to work with GitHub data is by leveraging SQL (Structured Query Language), a language for managing relational databases. This article explores how SQL can be used to interact with GitHub data and provides examples of SQL queries for common tasks.
 
 ## Connecting to the GitHub Database

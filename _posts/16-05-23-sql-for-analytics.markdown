@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  SQL in Analytics
+title:  SQL for Analytics
 date:   2023-05-16 16:10:00
 categories: code
 permalink: blog/sql-for-analytics

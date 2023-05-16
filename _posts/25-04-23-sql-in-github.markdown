@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  New Topic
+title:  Introduction to SQL in GitHub
 date:   2023-04-25 12:00:00
 categories: new
-permalink: blog/new-topic
+permalink: blog/sql-in-github
 ---
 
 > Advanced PHP topics which will empower the reader to create dynamic web pages.
@@ -137,30 +137,56 @@ $func('test'); // This calls echoit()
 ?>
 ```
 
-# Introduction to SQL for GitHub
+# SQL for GitHub
 
-## Overview
-SQL (Structured Query Language) is a programming language designed for managing and manipulating relational databases. GitHub, the popular web-based version control platform, offers powerful features for collaborating on software development projects. While GitHub primarily focuses on version control, it also provides functionalities to work with databases and query data using SQL.
+GitHub is a popular platform for hosting and collaborating on software projects. While it primarily focuses on version control and source code management, GitHub also provides an extensive API and a web interface that allows users to interact with their repositories and data. One powerful way to work with GitHub data is by leveraging SQL (Structured Query Language), a language for managing relational databases. This article explores how SQL can be used to interact with GitHub data and provides examples of SQL queries for common tasks.
 
-## Importance of SQL in GitHub
-SQL is a vital tool for interacting with databases, and its integration with GitHub expands the platform's capabilities. By leveraging SQL in GitHub, developers can perform various operations on databases stored within repositories, such as retrieving data, modifying records, creating tables, and executing complex queries. This integration enables efficient data management and analysis within the GitHub environment.
+## Connecting to the GitHub Database
 
-## Basic SQL Operations in GitHub
-1. **Connecting to a Database**: Learn how to establish a connection to a database within a GitHub repository.
-2. **Creating Tables**: Understand how to define database tables to store structured data using SQL statements.
-3. **Inserting and Modifying Data**: Explore techniques for inserting new records and updating existing data in tables.
-4. **Retrieving Data**: Discover SQL queries to extract specific information from a database, filtering results, and sorting data.
-5. **Joining Tables**: Learn how to combine data from multiple tables using various types of SQL joins.
-6. **Aggregating Data**: Understand how to perform calculations on data sets, such as calculating sums, averages, and counts.
-7. **Indexing and Optimization**: Explore techniques to optimize database performance by using indexes and query optimization.
-8. **Transactions and Concurrency**: Learn about handling concurrent access and maintaining data integrity through transactions.
+To connect to the GitHub database, you'll need to utilize the GitHub API or an SQL client that supports RESTful API integration. The GitHub API provides endpoints for querying repositories, issues, pull requests, and other relevant data. Once you have established a connection, you can start executing SQL queries to retrieve and manipulate the data.
 
-## Advanced SQL Features in GitHub
-1. **Views**: Understand how to create virtual tables that present a subset of data from one or more tables.
-2. **Stored Procedures**: Explore the creation of reusable SQL routines to encapsulate complex logic and improve code modularity.
-3. **Triggers**: Learn how to define actions triggered by specific database events, such as inserting, updating, or deleting records.
-4. **Full-text Search**: Discover techniques to perform advanced text-based searches within the GitHub database.
-5. **Security and Permissions**: Understand how to manage user access rights and protect sensitive data using SQL authorization mechanisms.
+## Example SQL Queries
+
+### 1. List all repositories
+
+To retrieve a list of all repositories in a GitHub account, you can use the following SQL query:
+
+```sql
+SELECT name, description, created_at
+FROM repositories
+ORDER BY created_at DESC;
+```
+
+This query selects the repository name, description, and creation date from the "repositories" table and orders the results by the creation date in descending order.
+
+### 2. Count open issues by repository
+
+If you want to count the number of open issues for each repository, you can use the following query:
+
+```sql
+SELECT repo_name, COUNT(*) AS open_issues_count
+FROM issues
+WHERE state = 'open'
+GROUP BY repo_name;
+```
+
+This query retrieves the repository name and the count of open issues from the "issues" table, filtering only for issues with the state "open." It then groups the results by the repository name.
+
+### 3. Find top contributors
+
+To identify the top contributors to a repository based on the number of commits, you can execute the following query:
+
+```sql
+SELECT author_name, COUNT(*) AS commit_count
+FROM commits
+WHERE repo_name = 'your_repository'
+GROUP BY author_name
+ORDER BY commit_count DESC
+LIMIT 10;
+```
+
+This query retrieves the author name and the count of commits from the "commits" table for a specific repository (replace `'your_repository'` with the desired repository name). It groups the results by author name, orders them by the commit count in descending order, and limits the output to the top 10 contributors.
 
 ## Conclusion
-SQL plays a crucial role in managing databases within GitHub repositories, empowering developers to work with structured data efficiently. By mastering SQL operations in GitHub, you can effectively leverage the power of databases, enhance collaboration, and derive meaningful insights from your projects.
+
+SQL is a powerful language that can be used to interact with GitHub data. By leveraging SQL queries, you can extract valuable information, perform analysis, and gain insights into your repositories. Whether you want to list repositories, count issues, or identify top contributors, SQL provides a flexible and efficient way to work with GitHub data.

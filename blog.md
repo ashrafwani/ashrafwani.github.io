@@ -40,6 +40,16 @@ drift.load('um2ve8c5pcxu');
 </script>
 <!-- End of Async Drift Code -->
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-942252990"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-942252990');
+</script>
+
 <!-- Ebay Ad Tag: 1 -->
 <div id="ebayindia2lJw7xP"></div>
 <script src="http://ebayindia.go2cloud.org/aff_ad?campaign_id=2&aff_id=8198&format=javascript&format=js&divid=ebayindia2lJw7xP" type="text/javascript"></script>

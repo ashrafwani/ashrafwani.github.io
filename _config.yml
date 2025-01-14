@@ -1,0 +1,28 @@
+# Site settings
+title: Ashraf Wani
+description: "Microsoft Certified Professional Developer"
+baseurl: ""
+url: "http://ashrafwani.com"
+author: "Ashraf Wani"
+name: Ashraf Wani
+email: ashrafwani@outlook.com
+uri: http://ashrafwani.com/about
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Gems
+gems:
+   - jekyll-sitemap
+
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"

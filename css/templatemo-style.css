@@ -17,6 +17,7 @@ CSS SITEMAP >>>>
   08. CONTACT BLOCK CSS
   09. TESTIMONOALS BLOCK CSS
   10. SKILLS BLOCK CSS
+  11. SERVICES / EXPERTISE TAGS
 
 
 ==================================================*/
@@ -866,4 +867,29 @@ textarea.form-control {
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
+}
+
+/*==============================================
+11. SERVICES / EXPERTISE TAGS
+================================================*/
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 25px;
+}
+
+.tags span {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.4;
+  text-transform: none;
+  font-weight: 500;
 }

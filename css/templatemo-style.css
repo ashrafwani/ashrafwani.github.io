@@ -452,7 +452,7 @@ a#logo {
 ================================================*/
 .about-img {
     position: relative;
-    height: 70%;
+    height: 100%;
     margin: 0;
 }
 
@@ -463,9 +463,10 @@ a#logo {
     object-fit: cover;
     border-radius: 50%;
     /* Change these two values to move the image */
-    left: 50%;
+    left: auto;
+    right: 0;
     top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
 }
 
 /* TOP CENTER */

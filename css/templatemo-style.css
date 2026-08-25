@@ -451,9 +451,11 @@ a#logo {
 05. ABOUT ME
 ================================================*/
 .about-img {
-    margin: 0 auto 30px;
-    text-align: center;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    margin: 0;
 }
 
 .about-img img {
@@ -461,10 +463,6 @@ a#logo {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    display: block;
-    margin: 0 auto;
-    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
-    box-shadow: 0 0 40px rgba(0,0,0,.3);
 }
 
 .profile-brush {

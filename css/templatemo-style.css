@@ -451,18 +451,58 @@ a#logo {
 05. ABOUT ME
 ================================================*/
 .about-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    position: relative;
+    height: 400px;
     margin: 0;
 }
 
 .about-img img {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
+    /* Change these two values to move the image */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* TOP CENTER */
+.about-img.top img {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* BOTTOM CENTER */
+.about-img.bottom img {
+    top: auto;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* LEFT CENTER */
+.about-img.left img {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* RIGHT CENTER */
+.about-img.right img {
+    left: auto;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* CENTER */
+.about-img.center img {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .profile-brush {

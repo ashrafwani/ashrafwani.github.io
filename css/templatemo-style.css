@@ -455,9 +455,12 @@ a#logo {
   position:relative;
 }
 .about-img img {
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
-  box-shadow: 0 0 40px rgba(0,0,0,.3);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
+    box-shadow: 0 0 40px rgba(0,0,0,.3);
 }
 .about-contentbox {
   margin-top: 80px;

@@ -830,13 +830,13 @@ textarea.form-control {
 
 .skills-row span {
   display: inline-block;
-  width: 38px;
+  width: 115px;
   height: 38px;
   text-align: center;
   line-height: 38px;
   background-color: #fff;
   color: #1e1e1e;
-  border-radius: 50%;
+  border-radius: 20px;
   font-size: 12px;
   font-weight: 700;
   left: 0;

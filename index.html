@@ -461,8 +461,6 @@
                                     </div>
                                   
                                    <div class="col-md-6 animate" data-animate="fadeInUp">
-                                      <!-- Formspree Form -->
-                                      <form id="ajax-contact" action="https://formspree.io/f/xwppwlln" method="POST">
                                         
                                         <!-- Honeypot Field for Spam Prevention -->
                                         <!--<input type="text" name="honeypot" style="display:none;" tabindex="-1" autocomplete="off">-->
@@ -476,7 +474,7 @@
                                             name="name" 
                                             id="name" 
                                             required 
-                                            placeholder="Enter your Name." 
+                                            placeholder="Enter your Name..." 
                                             aria-label="Name">
                                         </div>
                                     
@@ -488,7 +486,7 @@
                                             name="email" 
                                             id="email" 
                                             required 
-                                            placeholder="Enter your E-Mail." 
+                                            placeholder="Enter your E-Mail..." 
                                             aria-label="Email">
                                         </div>
                                     
@@ -510,7 +508,10 @@
 
                                         <!--<input type='hidden' name='redirect_to' value='https://ashrafwani.github.io/thankyou.html'/>-->
                                         <!--<input type="hidden" name="_redirect" value="https://ashrafwani.github.io/thankyou.html">-->
-                                        <input type="hidden" name="_next" value="https://ashrafwani.github.io/thankyou.html">
+                                        <!--<input type="hidden" name="_next" value="https://ashrafwani.github.io/thankyou.html">-->
+                                     
+                                        <!-- Formspree Form -->
+                                        <form id="ajax-contact" action="https://formspree.io/f/xwppwlln" method="POST">
                                         <!-- Feedback Messages -->
                                         <div id="form-messages" class="mt-3" role="alert" aria-live="polite"></div>
                                         
@@ -553,7 +554,7 @@
 
     <script src="js/jquery.inview.min.js"></script>
 
-    <<!--<script src="js/form.js"></script>-->
+    <script src="js/form.js"></script>
 
     <script src="js/custom.js"></script>
 

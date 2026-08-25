@@ -815,76 +815,76 @@ textarea.form-control {
 10. SKILLS BLOCK CSS
 ================================================*/
 .skills-row {
-  margin-top: 80px;
+  margin-top: 50px;
 }
+
 .skill-item {
   border-bottom: 1px solid rgba(250,250,250,0.1);
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 35px;
+  padding-bottom: 35px;
 }
+
 .last-skill {
   border-bottom: none;
 }
+
 .skills-row span {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 38px;
+  height: 38px;
   text-align: center;
-  line-height: 50px;
+  line-height: 38px;
   background-color: #fff;
   color: #1e1e1e;
   border-radius: 50%;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   left: 0;
-  top: -21px;
+  top: -16px;
   position: absolute;
   z-index: 999;
 }
+
 .skills-row h6 {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
-  text-align: right;
-  margin-bottom: -10px;
+  text-align: left;
+  margin-bottom: 12px;
 }
+
 .skill-bar {
-  width: 70%;
-  height: 6px;
+  width: 50%;
+  height: 5px;
   border-radius: 3px;
   background-color: rgba(250,250,250,0.25);
   position: relative;
 }
-.filled-bar {
-  position: absolute;
-  z-index: 99;
-  width: 70%;
-  height: 6px;
-  background-color: #fff;
-  border-radius: 3px;
-}
-.filled-bar-2 {
-  position: absolute;
-  z-index: 99;
-  width: 80%;
-  height: 6px;
-  background-color: #fff;
-  border-radius: 3px;
-}
-.filled-bar-3 {
-  position: absolute;
-  z-index: 99;
-  width: 90%;
-  height: 6px;
-  background-color: #fff;
-  border-radius: 3px;
-}
+
+.filled-bar,
+.filled-bar-2,
+.filled-bar-3,
 .filled-bar-4 {
   position: absolute;
   z-index: 99;
-  width: 100%;
-  height: 6px;
+  height: 5px;
   background-color: #fff;
   border-radius: 3px;
+}
+
+.filled-bar {
+  width: 70%;
+}
+
+.filled-bar-2 {
+  width: 80%;
+}
+
+.filled-bar-3 {
+  width: 90%;
+}
+
+.filled-bar-4 {
+  width: 100%;
 }

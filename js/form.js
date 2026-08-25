@@ -1,49 +1,53 @@
 $(function() {
 
-	// Get the form.
-	var form = $('#ajax-contact');
+    var form = $('#ajax-contact');
+    var formMessages = $('#form-messages');
 
-	// Get the messages div.
-	var formMessages = $('#form-messages');
+    $(form).submit(function(e) {
 
-	// Set up an event listener for the contact form.
-	$(form).submit(function(e) {
-		// Stop the browser from submitting the form.
-		e.preventDefault();
+        e.preventDefault();
 
-		// Serialize the form data.
-		var formData = $(form).serialize();
+        var formData = $(form).serialize();
 
-		// Submit the form using AJAX.
-		$.ajax({
-			type: 'POST',
-			url: $(form).attr('action'),
-			data: formData
-		})
-		.done(function(response) {
-			// Make sure that the formMessages div has the 'success' class.
-			$(formMessages).removeClass('bg-danger');
-			$(formMessages).addClass('bg-success');
+        $.ajax({
+            type: 'POST',
+            url: $(form).attr('action'),
+            data: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
 
-			// Set the message text.
-			$(formMessages).text('Your message successfully sent');
+        .done(function(response) {
 
-			// Clear the form.
-			$('#name, #email, #message').val('');			
-		})
-		.fail(function(data) {
-			// Make sure that the formMessages div has the 'error' class.
-			$(formMessages).removeClass('bg-success');
-			$(formMessages).addClass('bg-danger');
+            $(formMessages)
+                .removeClass('bg-danger')
+                .addClass('bg-success')
+                .text('Your message successfully sent');
 
-			// Set the message text.
-			if (data.responseText !== '') {
-				$(formMessages).text(data.responseText);
-			} else {
-				$(formMessages).text('Oops! An error occured and your message could not be sent.');
-			}
-		});
+            $('#name, #email, #message').val('');
 
-	});
+            setTimeout(function() {
+                window.location.href =
+                    'https://ashrafwani.github.io/thankyou.html';
+            }, 1000);
+
+        })
+
+        .fail(function(data) {
+
+            $(formMessages)
+                .removeClass('bg-success')
+                .addClass('bg-danger');
+
+            $(formMessages).text(
+                'Oops! Your message could not be sent. Please try again.'
+            );
+
+            console.log('Formspree error:', data);
+
+        });
+
+    });
 
 });

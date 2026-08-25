@@ -452,14 +452,14 @@ a#logo {
 ================================================*/
 .about-img {
     position: relative;
-    height: 400px;
+    height: 70%;
     margin: 0;
 }
 
 .about-img img {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
     border-radius: 50%;
     /* Change these two values to move the image */

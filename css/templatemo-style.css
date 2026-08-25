@@ -451,14 +451,17 @@ a#logo {
 05. ABOUT ME
 ================================================*/
 .about-img {
-  margin: 0 auto 40px;
-  position:relative;
+    margin: 0 auto 30px;
+    text-align: center;
 }
+
 .about-img img {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     border-radius: 50%;
+    display: block;
+    margin: 0 auto;
     -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
     box-shadow: 0 0 40px rgba(0,0,0,.3);
 }

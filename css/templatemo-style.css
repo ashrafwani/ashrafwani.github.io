@@ -925,8 +925,8 @@ textarea.form-control {
 }
 
 .client-item img {
-    max-width: 80%;
-    max-height: 60px;
+    max-width: 85%;
+    max-height: 65px;
     width: auto;
     height: auto;
     object-fit: contain;

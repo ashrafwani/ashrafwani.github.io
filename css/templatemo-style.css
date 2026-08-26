@@ -904,13 +904,13 @@ textarea.form-control {
 }
 
 .clients-row [class*="col-"] {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 10px;
 }
 
 .client-item {
-    width: 100%;
+    width: 70%;
     height: 100px;
     display: flex;
     align-items: center;

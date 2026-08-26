@@ -906,7 +906,7 @@ textarea.form-control {
 .clients-row [class*="col-"] {
     padding-left: 8px;
     padding-right: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .client-item {

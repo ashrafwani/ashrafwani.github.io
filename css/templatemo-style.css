@@ -408,7 +408,6 @@ a#logo {
   font-weight: 300;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2563eb;
 }
 .welcome-box p {
   max-width: 620px;
@@ -416,14 +415,12 @@ a#logo {
   margin:0 auto 30px;
   color: #fff;
 }
-/*.welcome-title {
+
+.welcome-title {
   font-weight: 700;
   font-size: 120px;
   margin-bottom: 10px;
   letter-spacing:0.02em;
-}*/
-
-.welcome-title {
   animation: titleFadeIn 1.2s ease-out forwards;
   opacity: 0;
 }

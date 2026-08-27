@@ -416,12 +416,30 @@ a#logo {
   margin:0 auto 30px;
   color: #fff;
 }
-.welcome-title {
+/*.welcome-title {
   font-weight: 700;
   font-size: 120px;
   margin-bottom: 10px;
   letter-spacing:0.02em;
+}*/
+
+.welcome-title {
+  animation: titleFadeIn 1.2s ease-out forwards;
+  opacity: 0;
 }
+
+@keyframes titleFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .welcome-title span {
   font-size:36px;
   display:block;

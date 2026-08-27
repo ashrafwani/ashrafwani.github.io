@@ -93,11 +93,10 @@ h6 {
   margin: 0 0 20px;
   font-weight: 600;
   text-transform:uppercase;
-  color: #2563eb;
 }
-h1,
 h2 {
   font-size: 32px;
+  color: #2563eb;
 }
 h3 {
   font-size: 30px;

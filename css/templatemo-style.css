@@ -492,15 +492,10 @@ a#logo {
   margin-top: 30px;
 }
 .facts-list .item {
-  overflow: hidden;
-  text-align:center;
-  border-radius: 10px;
-  width: 100%;
-  display: inline-block;
-  text-transform:capitalize;
-  font-size:14px;
-  padding: 30px 0px;
   background-color: rgba(250,250,250,0.25);
+  border-radius: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .counter-box span {
   font-size: 26px;
@@ -512,8 +507,8 @@ a#logo {
   opacity: 0.75;
 }
 .facts-list .item:hover {
-  background-color:#fff;
-  color:#1e1e1e;
+  background-color: #fff;
+  color: #1e1e1e;
 }
 .facts-list .owl-dots {
   margin-bottom: 30px;

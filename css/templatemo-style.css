@@ -137,21 +137,24 @@ video {
   min-width: 100%; 
   min-height: 100%;
 }
+
 #video:after {
   content: '';
-  opacity: 0.70;
-  background: #0b0f14; /* Start */
-  background: linear-gradient(180deg, #0b0f14 0%, #087f8c 100%); /*End*/
+  opacity: 0.80;
+  background: #033338; /* Start */
+  background: linear-gradient(180deg, #033338 0%, #087f8c 100%); /*End*/
   position:fixed;
   left:0;
   top:0;
   right:0;
   bottom: 0;
 }
+
 .wrapper-background-dark:after {
   background: #222;
   opacity:0.95;
 }
+
 .section-inner {
   padding:20px 30px 0;
 }

@@ -6,4 +6,4 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
-© 2012-2025 [Ashraf Wani](http://ashrafwani.github.io/)
+© 2012-2026 [Ashraf Wani](http://ashrafwani.github.io/)

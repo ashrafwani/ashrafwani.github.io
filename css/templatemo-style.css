@@ -672,9 +672,16 @@ text-align: center;
   opacity: 0.75;
   color:#1e1e1e;
 }
+
 .facts-list .item:hover {
-  background-color: #fff;
-  color:#1e1e1e;
+    background-color: #fff;
+    color: #000 !important;
+}
+
+.facts-list .item:hover * {
+    color: #000 !important;
+}
+
 }
 .facts-list .owl-dots {
   margin-bottom: 30px;

@@ -36,9 +36,9 @@ body {
 }
 body {
   font: 16px/1.6 'Raleway', Arial, Helvetica, sans-serif;
-  color: #fff;
+  color: #222;
   text-align:center;
-  background: #222;
+  background: #fff;
 }
 img {
   border: 0;

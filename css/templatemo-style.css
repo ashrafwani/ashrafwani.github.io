@@ -140,7 +140,7 @@ video {
 
 #video:after {
   content: '';
-  opacity: 0.80;
+  opacity: 0.50;
   background: #033338; /* Start */
   background: linear-gradient(180deg, #033338 0%, #087f8c 100%); /*End*/
   position:fixed;

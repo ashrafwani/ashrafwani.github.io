@@ -671,7 +671,6 @@ text-align: center;
   opacity: 0.75;
 }
 .facts-list .item:hover {
-  background-color:#fff;
   color:#1e1e1e;
 }
 .facts-list .owl-dots {

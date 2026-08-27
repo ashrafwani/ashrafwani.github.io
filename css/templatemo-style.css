@@ -622,7 +622,7 @@ text-align: center;
     width: 70%;
     height: 70%;
     object-fit: cover;
-    border-radius: 0 20px 20px 0;
+    border-radius: 20%;
     display: block;
 }
 .profile-brush {
@@ -677,12 +677,11 @@ text-align: center;
   font-size: 30px;
   margin-bottom: 10px;
   opacity: 0.75;
-  color: #1e1e1e;
 }
 .facts-list .item:hover {
-  background-color: #fff;
-  color: #1e1e1e;
-
+  background-color:#fff;
+  color:#1e1e1e;
+}
 .facts-list .owl-dots {
   margin-bottom: 30px;
 }

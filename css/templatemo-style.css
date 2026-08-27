@@ -677,24 +677,11 @@ text-align: center;
   font-size: 30px;
   margin-bottom: 10px;
   opacity: 0.75;
+  color: #1e1e1e;
 }
 .facts-list .item:hover {
   background-color: #fff;
-  color: #000 !important;
-}
-
-.facts-list .item:hover span,
-.facts-list .item:hover p,
-.facts-list .item:hover h3,
-.facts-list .item:hover h4,
-.facts-list .item:hover h5,
-.facts-list .item:hover h6,
-.facts-list .item:hover i,
-.facts-list .item:hover .count-number,
-.facts-list .item:hover .counted,
-.facts-list .item:hover .counter-icon {
-  color: #000 !important;
-}
+  color: #1e1e1e;
 
 .facts-list .owl-dots {
   margin-bottom: 30px;

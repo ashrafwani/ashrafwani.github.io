@@ -434,15 +434,6 @@ color: #fff;
 animation: floatLetter 3s ease-in-out infinite;
 }
 
-/* Space between first and last name */
-
-.welcome-title span:nth-child(7) {
-width: 0.3em;
-animation: none;
-}
-
-/* Staggered letter movement */
-
 .welcome-title span:nth-child(1) {
 animation-delay: 0s;
 }
@@ -465,6 +456,11 @@ animation-delay: 1.20s;
 
 .welcome-title span:nth-child(6) {
 animation-delay: 1.50s;
+}
+
+.welcome-title span:nth-child(7) {
+width: 0.3em;
+animation: none;
 }
 
 .welcome-title span:nth-child(8) {
@@ -496,38 +492,51 @@ transform: translateY(-8px);
 }
 }
 
-/* Water inside the letters */
+/* Main water-filled text */
 
 .welcome-title span:not(.space) {
 color: transparent;
+
 background:
 linear-gradient(
 180deg,
 #ffffff 0%,
-#dffaff 25%,
-#7de8f5 45%,
-#25c8dc 65%,
+#ffffff 38%,
+#d9faff 42%,
+#7de8f5 50%,
+#21c7dc 68%,
 #087f8c 100%
 );
-background-size: 100% 200%;
+
+background-size: 100% 220%;
 background-position: 0 100%;
+
 -webkit-background-clip: text;
 background-clip: text;
 -webkit-text-fill-color: transparent;
+
 animation:
 floatLetter 3s ease-in-out infinite,
-waterFlow 3s ease-in-out infinite;
+waterLevel 5s ease-in-out infinite;
 }
 
-/* Moving water */
+/* Slowly moving water level */
 
-@keyframes waterFlow {
+@keyframes waterLevel {
 0% {
 background-position: 0 100%;
 }
 
+30% {
+background-position: 0 85%;
+}
+
 50% {
-background-position: 0 0%;
+background-position: 0 70%;
+}
+
+70% {
+background-position: 0 85%;
 }
 
 100% {
@@ -535,44 +544,116 @@ background-position: 0 100%;
 }
 }
 
-/* Water highlights */
+/* Wave reflection inside letters */
 
 .welcome-title span:not(.space)::after {
 content: "";
 position: absolute;
-left: 10%;
-right: 10%;
-top: 35%;
-height: 8px;
 
-background: rgba(255, 255, 255, 0.7);
+left: -15%;
+top: 48%;
+
+width: 130%;
+height: 12px;
+
+background:
+linear-gradient(
+90deg,
+transparent 0%,
+rgba(255,255,255,0.15) 15%,
+rgba(255,255,255,0.85) 35%,
+rgba(255,255,255,0.25) 55%,
+rgba(255,255,255,0.8) 75%,
+transparent 100%
+);
+
 border-radius: 50%;
 
-filter: blur(3px);
-opacity: 0.5;
+filter: blur(2px);
 
-animation: waterShine 2.5s ease-in-out infinite;
+opacity: 0.65;
+
+transform: rotate(-2deg);
+
+animation: waterWave 3s ease-in-out infinite;
+
 pointer-events: none;
 }
 
-@keyframes waterShine {
+@keyframes waterWave {
 0% {
-transform: translateX(-20%);
-opacity: 0;
+transform: translateX(-35%) rotate(-2deg);
+opacity: 0.15;
 }
 
-40% {
-opacity: 0.7;
+25% {
+transform: translateX(-10%) rotate(2deg);
+opacity: 0.75;
 }
 
-70% {
-transform: translateX(20%);
-opacity: 0.3;
+50% {
+transform: translateX(10%) rotate(-1deg);
+opacity: 0.9;
+}
+
+75% {
+transform: translateX(30%) rotate(2deg);
+opacity: 0.55;
 }
 
 100% {
-transform: translateX(40%);
-opacity: 0;
+transform: translateX(55%) rotate(-2deg);
+opacity: 0.1;
+}
+}
+
+/* Subtle water shimmer */
+
+.welcome-title span:not(.space) {
+text-shadow:
+0 0 4px rgba(125, 232, 245, 0.25),
+0 0 12px rgba(37, 200, 220, 0.15);
+}
+
+/* Add slight liquid distortion */
+
+.welcome-title span:not(.space)::before {
+content: "";
+position: absolute;
+
+width: 140%;
+height: 100%;
+
+left: -20%;
+top: 0;
+
+background:
+repeating-linear-gradient(
+175deg,
+transparent 0px,
+transparent 8px,
+rgba(255,255,255,0.12) 10px,
+transparent 13px
+);
+
+opacity: 0.25;
+
+animation: liquidTexture 4s linear infinite;
+
+pointer-events: none;
+}
+
+@keyframes liquidTexture {
+0% {
+transform: translateY(0);
+}
+
+50% {
+transform: translateY(15px);
+}
+
+100% {
+transform: translateY(0);
 }
 }
 

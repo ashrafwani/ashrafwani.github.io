@@ -542,8 +542,8 @@ content: "";
 position: absolute;
 left: 10%;
 right: 10%;
-top: 35%;
-height: 8px;
+bottom: -5px;
+height: 7px;
 
 background: rgba(255, 255, 255, 0.7);
 border-radius: 50%;

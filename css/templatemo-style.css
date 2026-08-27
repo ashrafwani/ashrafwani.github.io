@@ -614,7 +614,7 @@ text-align: center;
   position:relative;
 }
 .about-img img {
-  border-radius: 10px;
+  border-radius: 0 20px 20px 0;
   -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
   box-shadow: 0 0 40px rgba(0,0,0,.3);
 }

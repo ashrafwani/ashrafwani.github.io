@@ -542,7 +542,7 @@ content: "";
 position: absolute;
 left: 10%;
 right: 10%;
-bottom: -5px;
+bottom: -1px;
 height: 7px;
 
 background: rgba(255, 255, 255, 0.7);

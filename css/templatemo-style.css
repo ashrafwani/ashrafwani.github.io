@@ -321,6 +321,7 @@ a#logo {
   text-decoration: none;
   display: flex;
   align-items: center;
+  height: 45px;
 }
 
 a#logo img {

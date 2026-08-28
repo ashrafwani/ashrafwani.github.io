@@ -9,6 +9,7 @@ CSS SITEMAP >>>>
 
   01. GENERAL CSS
   02. HEADER CSS
+      RAINBOW ANIMATIONS
   03. SOCIAL ICONS CSS
   04. WELCOME BLOCK CSS
   05. ABOUT BLOCK CSS
@@ -296,68 +297,160 @@ video {
 /*==============================================
 02. HEADER CSS
 ================================================*/
+
 #header {
-  padding:20px 0;
+  padding: 20px 0;
   position: fixed;
-  left:0;
-  right:0;
-  top:0;
-  z-index:999;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 999;
 }
+
 .container-fluid {
-  padding:0 20px;
+  padding: 0 20px;
 }
-a#logo {
-  text-decoration: none;
-  font-size: 32px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
+
 .navbar {
   padding: 0;
 }
-.navbar-toggle {
-  display:none;
+
+/* AW LOGO */
+
+a#logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
+
+a#logo img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  display: block;
+}
+
+/* NAVIGATION */
+
+.navbar-toggle {
+  display: none;
+}
+
 .navbar-nav {
   -ms-flex-direction: row;
   -webkit-flex-direction: row;
   flex-direction: row;
 }
+
 .navbar-nav li {
   margin-left: 30px;
 }
+
 .navbar-nav li a {
-  color:#fff;
   font-size: 15px;
-  text-decoration:none;
-  display:block;
-  font-weight: 500;
-  opacity: 0.9;
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+
+  /* Rainbow text */
+
+  background: linear-gradient(
+    90deg,
+    #ff004c,
+    #ff7a00,
+    #ffd500,
+    #00d084,
+    #00b7ff,
+    #6c5ce7,
+    #ff00c8,
+    #ff004c
+  );
+
+  background-size: 300% auto;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: rainbowText 6s linear infinite;
 }
+
+/* Rainbow underline */
+
 .navbar-nav li a:after {
-  content:'';
-  display:block;
+  content: '';
+  display: block;
   height: 2px;
-  background:#fff;
+
+  background: linear-gradient(
+    90deg,
+    #ff004c,
+    #ff7a00,
+    #ffd500,
+    #00d084,
+    #00b7ff,
+    #6c5ce7,
+    #ff00c8
+  );
+
+  background-size: 300% auto;
+
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  -webkit-transform:scale(0);
-  transform:scale(0);
+
+  -webkit-transform: scale(0);
+  transform: scale(0);
+
   margin-top: 4px;
+
+  animation: rainbowUnderline 6s linear infinite;
 }
-.navbar-nav li a:hover:after, .navbar-nav li.active a:after{
-  -webkit-transform:scale(1);
-  transform:scale(1);
+
+.navbar-nav li a:hover:after,
+.navbar-nav li.active a:after {
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
+
 .navbar-nav li a:hover {
   opacity: 1;
 }
+
 .navbar-nav li.active a {
   opacity: 1;
 }
+
 .collapse:not(.show) {
-  display:block;
+  display: block;
+}
+
+
+/*==============================================
+RAINBOW ANIMATIONS
+================================================*/
+
+@keyframes rainbowText {
+
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 300% center;
+  }
+
+}
+
+@keyframes rainbowUnderline {
+
+  0% {
+    background-position: 0% center;
+  }
+
+  100% {
+    background-position: 300% center;
+  }
+
 }
 
 /*==============================================

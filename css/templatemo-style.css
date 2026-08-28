@@ -778,7 +778,7 @@ text-align: center;
 .counter-box span {
   font-size: 26px;
   font-weight: 700;
-  color:#1e1e1e;
+  /*color:#1e1e1e;*/
 }
 .counter-icon {
   font-size: 30px;

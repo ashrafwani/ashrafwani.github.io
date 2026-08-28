@@ -355,7 +355,7 @@ a#logo img {
 
   /* Rainbow text */
 
-  background: linear-gradient(
+  /*background: linear-gradient(
     90deg,
     #ff004c,
     #ff7a00,
@@ -365,6 +365,18 @@ a#logo img {
     #6c5ce7,
     #ff00c8,
     #ff004c
+  );*/
+
+  background: linear-gradient(
+    90deg,
+    #d96b8a,
+    #d99a5b,
+    #d6c56b,
+    #6fbf9f,
+    #6fa8c9,
+    #8b7bb8,
+    #c27bb0,
+    #d96b8a
   );
 
   background-size: 300% auto;
@@ -385,13 +397,13 @@ a#logo img {
 
   background: linear-gradient(
     90deg,
-    #ff004c,
-    #ff7a00,
-    #ffd500,
-    #00d084,
-    #00b7ff,
-    #6c5ce7,
-    #ff00c8
+    #d96b8a,
+    #d99a5b,
+    #d6c56b,
+    #6fbf9f,
+    #6fa8c9,
+    #8b7bb8,
+    #c27bb0
   );
 
   background-size: 300% auto;
@@ -436,6 +448,10 @@ RAINBOW ANIMATIONS
     background-position: 0% center;
   }
 
+  50% {
+    background-position: 150% center;
+  }
+
   100% {
     background-position: 300% center;
   }
@@ -446,6 +462,10 @@ RAINBOW ANIMATIONS
 
   0% {
     background-position: 0% center;
+  }
+
+  50% {
+    background-position: 150% center;
   }
 
   100% {

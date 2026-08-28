@@ -724,58 +724,28 @@ text-align: center;
 /*==============================================
 05. ABOUT ME
 ================================================*/
-  
-.about-img {
-    position: relative;
-    width: 100%;
-    min-height: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    isolation: isolate;
-}
 
-.about-img::before {
-    content: "";
-    position: absolute;
-    width: 72%;
-    height: 82%;
-    background: linear-gradient(
-        135deg,
-        rgba(37, 99, 235, 0.35),
-        rgba(139, 92, 246, 0.25),
-        rgba(37, 99, 235, 0.15)
-    );
-    filter: blur(25px);
-    border-radius: 35% 65% 55% 45%;
-    transform: rotate(-4deg);
-    z-index: -2;
-}
+.about-img { 
+    margin-top: 0%; 
+    width: 100%; 
+    height: 100%; 
+    min-height: 70%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 0; 
+} 
 
-.about-img::after {
-    content: "";
-    position: absolute;
-    width: 70%;
-    height: 78%;
-    border: 8px solid rgba(37, 99, 235, 0.18);
-    border-radius: 25% 60% 30% 65%;
-    filter: blur(3px);
-    transform: rotate(3deg);
-    z-index: -1;
-}
-
-.about-img img {
-    width: 70%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-
-    border-radius: 20% 0 20% 0;
-
+.about-img img { 
+    width: 70%; 
+    height: 70%; 
+    object-fit: cover; 
+    border-radius: 20% 0 20% 0; 
+    display: block; 
     box-shadow:
-        0 15px 35px rgba(0, 0, 0, 0.18),
-        0 0 25px rgba(37, 99, 235, 0.12);
+        0 15px 35px rgba(0, 0, 0, 0.12),
+        0 0 25px rgba(255, 255, 255, 0.35),
+        0 0 45px rgba(37, 99, 235, 0.18);
 }
 
 .about-contentbox {

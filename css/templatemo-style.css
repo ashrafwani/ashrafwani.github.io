@@ -369,14 +369,14 @@ a#logo img {
 
   background: linear-gradient(
     90deg,
-    #d96b8a,
-    #d99a5b,
-    #d6c56b,
-    #6fbf9f,
-    #6fa8c9,
-    #8b7bb8,
-    #c27bb0,
-    #d96b8a
+    #ffffff,  /* White */
+    #dbeafe,  /* Very Light Blue */
+    #93c5fd,  /* Soft Blue */
+    #60a5fa,  /* Blue */
+    #818cf8,  /* Indigo */
+    #a78bfa,  /* Soft Purple */
+    #c4b5fd,  /* Light Purple */
+    #ffffff   /* White */
   );
 
   background-size: 300% auto;
@@ -397,13 +397,14 @@ a#logo img {
 
   background: linear-gradient(
     90deg,
-    #d96b8a,
-    #d99a5b,
-    #d6c56b,
-    #6fbf9f,
-    #6fa8c9,
-    #8b7bb8,
-    #c27bb0
+    #ffffff,  /* White */
+    #dbeafe,  /* Very Light Blue */
+    #93c5fd,  /* Soft Blue */
+    #60a5fa,  /* Blue */
+    #818cf8,  /* Indigo */
+    #a78bfa,  /* Soft Purple */
+    #c4b5fd,  /* Light Purple */
+    #ffffff   /* White */
   );
 
   background-size: 300% auto;

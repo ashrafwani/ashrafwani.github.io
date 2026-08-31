@@ -1089,6 +1089,7 @@ textarea.form-control {
 /*==============================================
 10. SKILLS BLOCK CSS
 ================================================*/
+
 .skills-row {
   margin-top: 50px;
 }
@@ -1097,46 +1098,50 @@ textarea.form-control {
   border-bottom: 1px solid rgba(250,250,250,0.1);
   margin-bottom: 20px;
   padding-bottom: 20px;
+  position: relative;
 }
 
 .last-skill {
   border-bottom: none;
 }
 
+/* Level Badge */
 .skills-row span {
   display: inline-block;
-  width: 115px;
-  height: 38px;
+  width: 100px;
+  height: 32px;
   text-align: center;
-  line-height: 38px;
-  background-color: #fff;
-  color: #1e1e1e;
+  line-height: 32px;
+  color: #fff;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
   left: 0;
-  top: -16px;
+  top: -14px;
   position: absolute;
   z-index: 999;
 }
 
+/* Skill Name */
 .skills-row h6 {
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
+/* Skill Bar Background */
 .skill-bar {
   width: 100%;
   height: 5px;
   border-radius: 3px;
-  background-color: rgba(250,250,250,0.25);
+  background-color: rgba(255,255,255,0.20);
   position: relative;
 }
 
+/* Filled Bars */
 .filled-bar,
 .filled-bar-2,
 .filled-bar-3,
@@ -1144,24 +1149,66 @@ textarea.form-control {
   position: absolute;
   z-index: 99;
   height: 5px;
-  background-color: #fff;
   border-radius: 3px;
 }
 
+/* ==============================================
+   EXPERT
+   Blue
+================================================ */
+
 .filled-bar {
   width: 95%;
+  background: #3b82f6;
 }
+
+.skill-item:has(.filled-bar) span {
+  background: #3b82f6;
+}
+
+
+/* ==============================================
+   ADVANCED
+   Purple
+================================================ */
 
 .filled-bar-2 {
   width: 80%;
+  background: #8b5cf6;
 }
+
+.skill-item:has(.filled-bar-2) span {
+  background: #8b5cf6;
+}
+
+
+/* ==============================================
+   INTERMEDIATE
+   Light Blue
+================================================ */
 
 .filled-bar-3 {
   width: 65%;
+  background: #38bdf8;
 }
+
+.skill-item:has(.filled-bar-3) span {
+  background: #38bdf8;
+}
+
+
+/* ==============================================
+   BEGINNER
+   Soft Gray
+================================================ */
 
 .filled-bar-4 {
   width: 50%;
+  background: #94a3b8;
+}
+
+.skill-item:has(.filled-bar-4) span {
+  background: #94a3b8;
 }
 
 

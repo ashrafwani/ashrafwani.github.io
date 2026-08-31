@@ -361,24 +361,16 @@ a#logo img {
 
   /* Rainbow text */
 
-  /*background: linear-gradient(
-    90deg,
-    #ff004c,
-    #ff7a00,
-    #ffd500,
-    #00d084,
-    #00b7ff,
-    #6c5ce7,
-    #ff00c8,
-    #ff004c
-  );*/
-
   background: linear-gradient(
     90deg,
-    #ffffff,  /* White */
-    #dbeafe,  /* Very Light Blue */
-    #60a5fa,  /* Blue */
-    #93c5fd,  /* Soft Blue */
+    #ffffff,
+    #dbeafe,
+    #bfdbfe,
+    #a5b4fc,
+    #c7d2fe,
+    #ddd6fe,
+    #e9d5ff,
+    #ffffff
   );
 
   background-size: 300% auto;
@@ -399,14 +391,14 @@ a#logo img {
 
   background: linear-gradient(
     90deg,
-    #ffffff,  /* White */
-    #dbeafe,  /* Very Light Blue */
-    #93c5fd,  /* Soft Blue */
-    #60a5fa,  /* Blue */
-    #818cf8,  /* Indigo */
-    #a78bfa,  /* Soft Purple */
-    #c4b5fd,  /* Light Purple */
-    #ffffff   /* White */
+    #ffffff,
+    #dbeafe,
+    #bfdbfe,
+    #a5b4fc,
+    #c7d2fe,
+    #ddd6fe,
+    #e9d5ff,
+    #ffffff
   );
 
   background-size: 300% auto;

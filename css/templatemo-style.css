@@ -1091,49 +1091,36 @@ textarea.form-control {
 ================================================*/
 
 .skills-row {
-    margin-top: 25px;
-}
-
-.skills-row > .row {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-start;
+    margin-top: 35px;
 }
 
 .skill-category {
-    padding: 0 7px;
+    padding: 0 8px;
 }
 
 .skill-category h5 {
-    font-size: 13px;
-    line-height: 1.2;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 0 0 18px;
+    margin-bottom: 25px;
     color: #fff;
-    letter-spacing: 0.02em;
-    white-space: nowrap;
+    letter-spacing: 0.03em;
 }
 
 .skill-item {
     position: relative;
     border-bottom: 1px solid rgba(250,250,250,0.08);
-    margin-bottom: 17px;
-    padding-bottom: 16px;
-}
-
-.skill-item:last-child {
-    margin-bottom: 0;
+    margin-bottom: 24px;
+    padding-bottom: 22px;
 }
 
 .skill-item h6 {
-    font-size: 10px;
-    line-height: 1.2;
+    font-size: 11px;
     text-transform: uppercase;
     font-weight: 700;
     color: #fff;
     text-align: left;
-    margin: 0 0 13px;
+    margin-bottom: 18px;
     white-space: nowrap;
 }
 
@@ -1145,24 +1132,19 @@ textarea.form-control {
     position: relative;
 }
 
-.skills-page {
-    max-height: calc(100vh - 120px);
-    overflow: hidden;
-}
-
 .skills-row span {
     display: inline-block;
-    width: 62px;
-    height: 21px;
+    width: 72px;
+    height: 24px;
     text-align: center;
-    line-height: 21px;
+    line-height: 24px;
     background-color: #fff;
     color: #1e1e1e;
-    border-radius: 12px;
-    font-size: 8px;
+    border-radius: 15px;
+    font-size: 9px;
     font-weight: 700;
     left: 0;
-    top: -9px;
+    top: -10px;
     position: absolute;
     z-index: 99;
 }
@@ -1193,54 +1175,16 @@ textarea.form-control {
     width: 50%;
 }
 
-
-/*==============================================
-FIVE COLUMN LAYOUT
-================================================*/
+/* Five equal columns */
 
 .col-lg-2-4 {
     flex: 0 0 20%;
     max-width: 20%;
 }
 
-
-/*==============================================
-DESKTOP HEIGHT CONTROL
-================================================*/
-
-@media screen and (min-width: 992px) {
-
-    .skills-row {
-        margin-top: 20px;
-    }
-
-    .skill-category h5 {
-        font-size: 12px;
-        margin-bottom: 16px;
-    }
-
-    .skill-item {
-        margin-bottom: 14px;
-        padding-bottom: 13px;
-    }
-
-    .skill-item h6 {
-        font-size: 9px;
-        margin-bottom: 11px;
-    }
-
-}
-
-
-/*==============================================
-TABLET
-================================================*/
+/* Tablet */
 
 @media screen and (max-width: 991px) {
-
-    .skills-row > .row {
-        flex-wrap: wrap;
-    }
 
     .col-lg-2-4 {
         flex: 0 0 33.333333%;
@@ -1250,16 +1194,9 @@ TABLET
 
 }
 
-
-/*==============================================
-MOBILE
-================================================*/
+/* Mobile */
 
 @media screen and (max-width: 575px) {
-
-    .skills-row > .row {
-        flex-wrap: wrap;
-    }
 
     .col-lg-2-4 {
         flex: 0 0 100%;
@@ -1271,12 +1208,11 @@ MOBILE
     }
 
     .skill-category h5 {
-        font-size: 14px;
-        margin-bottom: 20px;
+        font-size: 15px;
     }
 
     .skill-item h6 {
-        font-size: 11px;
+        font-size: 12px;
     }
 
 }
@@ -1339,5 +1275,3 @@ MOBILE
     opacity: 0.65;
     letter-spacing: 0.2px;
 }
-
-

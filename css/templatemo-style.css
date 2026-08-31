@@ -1145,6 +1145,11 @@ textarea.form-control {
     position: relative;
 }
 
+.skills-page {
+    max-height: calc(100vh - 120px);
+    overflow: hidden;
+}
+
 .skills-row span {
     display: inline-block;
     width: 62px;

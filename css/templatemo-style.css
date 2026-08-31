@@ -377,12 +377,8 @@ a#logo img {
     90deg,
     #ffffff,  /* White */
     #dbeafe,  /* Very Light Blue */
-    #93c5fd,  /* Soft Blue */
     #60a5fa,  /* Blue */
-    #818cf8,  /* Indigo */
-    #a78bfa,  /* Soft Purple */
-    #c4b5fd,  /* Light Purple */
-    #ffffff   /* White */
+    #93c5fd,  /* Soft Blue */
   );
 
   background-size: 300% auto;

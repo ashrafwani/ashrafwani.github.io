@@ -363,14 +363,14 @@ a#logo img {
 
   background: linear-gradient(
     90deg,
-    #ffffff,
-    #dbeafe,
-    #bfdbfe,
-    #a5b4fc,
-    #c7d2fe,
-    #ddd6fe,
-    #e9d5ff,
-    #ffffff
+    #ffd6e0,
+    #ffe0c2,
+    #fff1b8,
+    #d9f5d0,
+    #cceeff,
+    #d6e4ff,
+    #ddd2ff,
+    #f0d6f5
   );
 
   background-size: 300% auto;

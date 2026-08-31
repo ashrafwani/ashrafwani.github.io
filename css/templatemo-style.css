@@ -1224,3 +1224,16 @@ textarea.form-control {
     border-color: rgba(250,250,250,0.4);
     background-color: #fff;
 }
+
+.clients-note {
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 1.5;
+    opacity: 0.65;
+    letter-spacing: 0.2px;
+}
+
+

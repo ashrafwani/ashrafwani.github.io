@@ -1162,7 +1162,7 @@ textarea.form-control {
 }
 
 .skill-item:has(.filled-bar) span {
-  background: #D96B8A;
+  background: #fa6161;
 }
 
 
@@ -1176,7 +1176,7 @@ textarea.form-control {
 }
 
 .skill-item:has(.filled-bar-2) span {
-  background: #D99A5B;
+  background: #fa9961;
 }
 
 
@@ -1190,7 +1190,7 @@ textarea.form-control {
 }
 
 .skill-item:has(.filled-bar-3) span {
-  background: #6FBF9F;
+  background: #61fa80;
 }
 
 
@@ -1204,8 +1204,9 @@ textarea.form-control {
 }
 
 .skill-item:has(.filled-bar-4) span {
-  background: #6FA8C9;
+  background: #61e6fa;
 }
+
 /* ==============================================
    SKILL BAR LOADING ANIMATION
 ================================================ */

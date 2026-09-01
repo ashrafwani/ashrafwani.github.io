@@ -758,7 +758,7 @@ text-align: center;
     object-fit: cover; 
     border-radius: 20% 0 20% 0; 
     display: block; 
-    border: 2px solid #f97316;
+    border: 1px solid #f97316;
     box-shadow:
         0 15px 35px rgba(0, 0, 0, 0.10),
         0 0 30px rgba(255, 255, 255, 0.50),
@@ -1106,7 +1106,7 @@ textarea.form-control {
   width: 140px;
   height: 140px;
   margin: 0 auto;
-  border: 2px solid #f97316;
+  border: 1px solid #f97316;
   box-shadow: 0 0 12px rgba(249, 115, 22, 0.25);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

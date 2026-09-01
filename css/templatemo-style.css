@@ -138,28 +138,28 @@ figure {
 }
 
 video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
+    display: none;
+}
+
+#video {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: #232530;
 }
 
 #video:after {
-  content: '';
-  opacity: 0.50;
-  background: #033338; /* Start */
-  background: linear-gradient(180deg, #033338 0%, #087f8c 100%); /*End*/
-  position:fixed;
-  left:0;
-  top:0;
-  right:0;
-  bottom: 0;
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: #232530;
+    opacity: 1;
 }
 
 .wrapper-background-dark:after {
-  background: #222;
-  opacity:0.95;
+    background: #222;
+    opacity: 0.95;
 }
 
 .section-inner {

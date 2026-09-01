@@ -1077,6 +1077,12 @@ textarea.form-control {
   margin: 0 auto;
   border: 2px solid #f97316;
   box-shadow: 0 0 12px rgba(249, 115, 22, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonials-section .item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(249, 115, 22, 0.4);
 }
 .testimonials-section .item h4 {
   margin-top: 40px;

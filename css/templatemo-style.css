@@ -1112,8 +1112,7 @@ textarea.form-control {
   height: 32px;
   text-align: center;
   line-height: 32px;
-  background-color: #fff; 
-  color: #1e1e1e; 
+  color: #fff; 
   border-radius: 20px;
   font-size: 11px;
   font-weight: 700;
@@ -1167,6 +1166,11 @@ textarea.form-control {
   box-shadow: 0 0 8px rgba(239,71,111,.25);
 }
 
+.skill-item:has(.filled-bar) span {
+  background: #D96B8A;
+}
+
+
 
 /* ==============================================
    ADVANCED ORANGE
@@ -1178,6 +1182,11 @@ textarea.form-control {
   animation-delay: 0.35s;
   box-shadow: 0 0 8px rgba(255,184,3,.25);
 }
+
+.skill-item:has(.filled-bar) span {
+  background: #D99A5B;
+}
+
 
 
 /* ==============================================
@@ -1191,6 +1200,12 @@ textarea.form-control {
   box-shadow: 0 0 8px rgba(3,209,198,.25);
 }
 
+.skill-item:has(.filled-bar) span {
+  background: #6FBF9F;
+  box-shadow: 0 0 8px rgba(3,209,198,.25);
+}
+
+
 
 /* ==============================================
    BEGINNER BLUE
@@ -1201,6 +1216,10 @@ textarea.form-control {
   background: rgba(70,117,203,.3);
   animation-delay: 0.65s;
   box-shadow: 0 0 8px rgba(70,117,203,.25);
+}
+
+.skill-item:has(.filled-bar) span {
+  background: #6FA8C9;
 }
 
 

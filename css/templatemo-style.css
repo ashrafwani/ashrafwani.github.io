@@ -1271,6 +1271,46 @@ textarea.form-control {
     box-shadow: 0 0 8px rgba(70,117,203,.25);
 }
 
+/* ==============================================
+   BLINKING DOT AT END OF FILLED BARS
+================================================ */
+
+.filled-bar,
+.filled-bar-2,
+.filled-bar-3 {
+    position: relative;
+}
+
+.filled-bar::after,
+.filled-bar-2::after,
+.filled-bar-3::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 9px;
+    height: 9px;
+    background: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(255,255,255,0.8);
+    animation: subtle-pulse 1.8s ease-in-out infinite;
+}
+
+@keyframes subtle-pulse {
+    0%, 100% {
+        opacity: 1;
+        transform: translateY(-50%) scale(1);
+        box-shadow: 0 0 6px rgba(255,255,255,0.6);
+    }
+
+    50% {
+        opacity: 0.75;
+        transform: translateY(-50%) scale(1.25);
+        box-shadow: 0 0 12px rgba(255,255,255,0.9);
+    }
+}
+
 /*==============================================
 11. CLIENTS BLOCK CSS
 ================================================*/

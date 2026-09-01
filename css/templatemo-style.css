@@ -1150,9 +1150,6 @@ textarea.form-control {
   z-index: 99;
   height: 5px;
   border-radius: 3px;
-    transform: scaleX(0);
-    transform-origin: left center;
-    animation: skillLoad 1.5s ease-out forwards;
 }
 
 /* ==============================================
@@ -1162,8 +1159,6 @@ textarea.form-control {
 .filled-bar {
   width: 95%;
   background: rgba(239,71,111,.3);
-    animation-delay: 1s;
-    box-shadow: 0 0 8px rgba(239,71,111,.25);
 }
 
 .skill-item:has(.filled-bar) span {
@@ -1178,8 +1173,6 @@ textarea.form-control {
 .filled-bar-2 {
   width: 80%;
   background: rgba(255,184,3,.3);
-    animation-delay: 2s;
-    box-shadow: 0 0 8px rgba(255,184,3,.25);
 }
 
 .skill-item:has(.filled-bar-2) span {
@@ -1194,8 +1187,6 @@ textarea.form-control {
 .filled-bar-3 {
   width: 65%;
   background: rgba(3,209,198,.3);
-    animation-delay: 3s;
-    box-shadow: 0 0 8px rgba(3,209,198,.25);
 }
 
 .skill-item:has(.filled-bar-3) span {
@@ -1210,14 +1201,75 @@ textarea.form-control {
 .filled-bar-4 {
   width: 50%;
   background: rgba(70,117,203,.3);
-    animation-delay: 4s;
-    box-shadow: 0 0 8px rgba(70,117,203,.25);
 }
 
 .skill-item:has(.filled-bar-4) span {
   background: #6FA8C9;
 }
+/* ==============================================
+   SKILL BAR LOADING ANIMATION
+================================================ */
 
+.filled-bar,
+.filled-bar-2,
+.filled-bar-3,
+.filled-bar-4 {
+    transform: scaleX(0);
+    transform-origin: left center;
+    animation: skillLoad 1.5s ease-out forwards;
+}
+
+
+/* Expert */
+.filled-bar {
+    animation-delay: 0.2s;
+}
+
+
+/* Advanced */
+.filled-bar-2 {
+    animation-delay: 0.35s;
+}
+
+
+/* Intermediate */
+.filled-bar-3 {
+    animation-delay: 0.5s;
+}
+
+
+/* Beginner */
+.filled-bar-4 {
+    animation-delay: 0.65s;
+}
+
+
+/* Loading Animation */
+@keyframes skillLoad {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.filled-bar {
+    box-shadow: 0 0 8px rgba(239,71,111,.25);
+}
+
+.filled-bar-2 {
+    box-shadow: 0 0 8px rgba(255,184,3,.25);
+}
+
+.filled-bar-3 {
+    box-shadow: 0 0 8px rgba(3,209,198,.25);
+}
+
+.filled-bar-4 {
+    box-shadow: 0 0 8px rgba(70,117,203,.25);
+}
 
 /*==============================================
 11. CLIENTS BLOCK CSS

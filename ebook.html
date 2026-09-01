@@ -1,454 +1,248 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
 
-    <!-- Google AdSense -->
-    <script async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2108347561458568"
-        crossorigin="anonymous"></script>
+```
+<!-- Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2108347561458568"
+    crossorigin="anonymous"></script>
 
-    <script async
-        custom-element="amp-auto-ads"
-        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
-    </script>
+<script async custom-element="amp-auto-ads"
+    src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
 
-    <meta name="google-adsense-account" content="ca-pub-2108347561458568">
+<meta name="google-adsense-account" content="ca-pub-2108347561458568">
 
-    <!-- Basic Meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Basic Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="description"
-        content="Explore Ashraf Wani's eBooks on data analytics, machine learning, and related topics.">
+<meta name="description" content="Ashraf Wani's published e-books and data analytics publications.">
+<meta name="author" content="Ashraf Wani">
 
-    <meta name="author" content="Ashraf Wani">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900"
+    rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900"
-        rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 
-    <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+<!-- Page Title -->
+<title>Ashraf Wani - E-Books</title>
 
-    <title>Ashraf Wani | E-Books</title>
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-
-    <!-- Template CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-
-    <!-- E-Book Page Styling -->
-    <style>
-
-        /* ==============================================
-           E-BOOK PAGE
-        ================================================= */
-
-        body {
-            background: #0F172A;
-            color: #fff;
-        }
-
-        #video {
-            position: fixed;
-            inset: 0;
-            width: 100%;
-            height: 100%;
-            background: #0F172A;
-            z-index: 0;
-        }
-
-        #video:after {
-            content: '';
-            position: fixed;
-            inset: 0;
-            background:
-                radial-gradient(
-                    circle at 50% 40%,
-                    rgba(37, 99, 235, 0.10),
-                    transparent 45%
-                );
-            pointer-events: none;
-        }
-
-        #fullpage {
-            position: relative;
-            z-index: 99;
-        }
-
-        /* ==============================================
-           E-BOOK CARD
-        ================================================= */
-
-        .ebook-section {
-            margin-top: 20px;
-        }
-
-        .ebook-card {
-            max-width: 320px;
-            margin: 0 auto;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.06);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            border-radius: 14px;
-            transition:
-                transform 0.35s ease,
-                box-shadow 0.35s ease,
-                border-color 0.35s ease,
-                background 0.35s ease;
-        }
-
-        .ebook-card:hover {
-            transform: translateY(-8px);
-            background: rgba(255, 255, 255, 0.09);
-            border-color: #F97316;
-            box-shadow:
-                0 15px 35px rgba(0, 0, 0, 0.25),
-                0 0 25px rgba(249, 115, 22, 0.18);
-        }
-
-        .ebook-cover {
-            display: block;
-            overflow: hidden;
-            border-radius: 10px;
-        }
-
-        .ebook-cover img {
-            width: 100%;
-            height: auto;
-            display: block;
-            border-radius: 10px;
-            transition: transform 0.4s ease;
-        }
-
-        .ebook-card:hover .ebook-cover img {
-            transform: scale(1.03);
-        }
-
-        .ebook-info {
-            padding-top: 18px;
-            text-align: left;
-        }
-
-        .ebook-info h3 {
-            margin: 0 0 8px;
-            font-size: 17px;
-            line-height: 1.4;
-            font-weight: 700;
-            text-transform: none;
-            color: #fff;
-        }
-
-        .ebook-info p {
-            margin: 0 0 15px;
-            font-size: 13px;
-            line-height: 1.6;
-            color: rgba(255, 255, 255, 0.65);
-        }
-
-        .ebook-button {
-            display: inline-block;
-            padding: 9px 18px;
-            border: 1px solid #F97316;
-            border-radius: 8px;
-            background: rgba(249, 115, 22, 0.10);
-            color: #fff;
-            font-size: 12px;
-            font-weight: 700;
-            text-transform: uppercase;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .ebook-button:hover {
-            background: #F97316;
-            border-color: #F97316;
-            color: #fff;
-            text-decoration: none;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(249, 115, 22, 0.25);
-        }
-
-        /* ==============================================
-           SOCIAL ICONS
-        ================================================= */
-
-        #social-icons {
-            z-index: 199;
-        }
-
-        /* ==============================================
-           PRELOADER
-        ================================================= */
-
-        .preloader {
-            background: linear-gradient(
-                135deg,
-                #0F172A 0%,
-                #172554 60%,
-                #1E3A5F 100%
-            );
-        }
-
-        .preloader-bounce > span:nth-child(1) {
-            background: #F97316;
-            box-shadow: 0 0 12px rgba(249, 115, 22, 0.6);
-        }
-
-        .preloader-bounce > span:nth-child(2) {
-            background: #FFFFFF;
-            box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
-        }
-
-        .preloader-bounce > span:nth-child(3) {
-            background: #2563EB;
-            box-shadow: 0 0 12px rgba(37, 99, 235, 0.6);
-        }
-
-        /* ==============================================
-           MOBILE
-        ================================================= */
-
-        @media screen and (max-width: 767px) {
-
-            .section-inner {
-                padding: 20px 20px 0;
-            }
-
-            .ebook-card {
-                max-width: 270px;
-                padding: 15px;
-            }
-
-            .ebook-info h3 {
-                font-size: 15px;
-            }
-
-            .ebook-info p {
-                font-size: 12px;
-            }
-
-        }
-
-    </style>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/fullpage.min.css">
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/templatemo-style.css">
+<link rel="stylesheet" href="css/responsive.css">
+```
 
 </head>
 
-
 <body>
 
-    <!-- Google AdSense -->
-    <amp-auto-ads
-        type="adsense"
-        data-ad-client="ca-pub-2108347561458568">
-    </amp-auto-ads>
+```
+<!-- Google AdSense -->
+<amp-auto-ads type="adsense"
+    data-ad-client="ca-pub-2108347561458568">
+</amp-auto-ads>
 
 
-    <!-- Background -->
-    <div id="video">
+<!-- Main Background -->
+<div id="video">
 
-        <!-- Preloader -->
-        <div class="preloader">
 
-            <div class="preloader-bounce">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+    <!-- Preloader -->
+    <div class="preloader">
 
+        <div class="preloader-bounce">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
 
-
-        <!-- Header -->
-        <header id="header">
-
-            <div class="container-fluid">
-
-                <div class="navbar">
-
-                    <a
-                        href="/#slide01"
-                        id="logo"
-                        title="Ashraf Wani">
-
-                        <img
-                            src="images/aw-logo.PNG"
-                            alt="Ashraf Wani">
-
-                    </a>
+    </div>
 
 
-                    <div class="navigation-row">
+    <!-- Header -->
+    <header id="header">
 
-                        <nav id="navigation">
+        <div class="container-fluid">
 
-                            <button
-                                type="button"
-                                class="navbar-toggle">
+            <div class="navbar">
 
-                                <i class="fa fa-bars"></i>
+                <!-- Logo -->
+                <a href="/#slide01" id="logo" title="Ashraf Wani">
 
-                            </button>
+                    <img
+                        src="images/aw-logo.PNG"
+                        alt="Ashraf Wani">
+
+                </a>
 
 
-                            <div class="nav-box navbar-collapse">
+                <!-- Navigation -->
+                <div class="navigation-row">
 
-                                <ul
-                                    class="navigation-menu nav navbar-nav navbars"
-                                    id="nav">
+                    <nav id="navigation">
 
-                                    <li>
-                                        <a href="/#slide01">
-                                            Home
-                                        </a>
-                                    </li>
+                        <button
+                            type="button"
+                            class="navbar-toggle">
 
-                                    <li>
-                                        <a href="/#slide02">
-                                            About Me
-                                        </a>
-                                    </li>
+                            <i class="fa fa-bars"></i>
 
-                                    <li>
-                                        <a href="/#slide03">
-                                            Services
-                                        </a>
-                                    </li>
+                        </button>
 
-                                    <li>
-                                        <a href="/#slide04">
-                                            My Skills
-                                        </a>
-                                    </li>
 
-                                    <li>
-                                        <a href="/#slide05">
-                                            My Work
-                                        </a>
-                                    </li>
+                        <div class="nav-box navbar-collapse">
 
-                                    <li>
-                                        <a href="/#slide06">
-                                            Resume
-                                        </a>
-                                    </li>
+                            <ul
+                                class="navigation-menu nav navbar-nav navbars"
+                                id="nav">
 
-                                    <li>
-                                        <a href="/#slide07">
-                                            Contact Me
-                                        </a>
-                                    </li>
+                                <li data-menuanchor="slide01">
+                                    <a href="/#slide01">Home</a>
+                                </li>
 
-                                </ul>
+                                <li data-menuanchor="slide02">
+                                    <a href="/#slide02">About Me</a>
+                                </li>
 
-                            </div>
+                                <li data-menuanchor="slide03">
+                                    <a href="/#slide03">Services</a>
+                                </li>
 
-                        </nav>
+                                <li data-menuanchor="slide04">
+                                    <a href="/#slide04">My Skills</a>
+                                </li>
 
-                    </div>
+                                <li data-menuanchor="slide05">
+                                    <a href="/#slide05">My Work</a>
+                                </li>
+
+                                <li data-menuanchor="slide06">
+                                    <a href="/#slide06">Resume</a>
+                                </li>
+
+                                <li class="active">
+                                    <a href="/ebook.html">E-Books</a>
+                                </li>
+
+                                <li data-menuanchor="slide07">
+                                    <a href="/#slide07">Contact Me</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </nav>
 
                 </div>
 
             </div>
 
-        </header>
+        </div>
+
+    </header>
 
 
-        <!-- Main Content -->
-        <div
-            id="fullpage"
-            class="fullpage-default">
+    <!-- Hidden Video -->
+    <video autoplay muted loop id="myVideo">
+
+        <source
+            src="images/veo-bg.mp4"
+            type="video/mp4">
+
+    </video>
 
 
-            <!-- E-BOOK SECTION -->
-            <div
-                class="section animated-row"
-                data-section="ebooks">
-
-                <div class="section-inner">
-
-                    <div class="row justify-content-center">
-
-                        <div class="col-md-10 wide-col-laptop">
+    <!-- FullPage Content -->
+    <div id="fullpage" class="fullpage-default">
 
 
-                            <!-- Section Title -->
-                            <div
-                                class="title-block animate"
-                                data-animate="fadeInUp">
+        <!-- E-Books Section -->
+        <div class="section animated-row">
 
-                                <span>
-                                    My Publications
-                                </span>
+            <div class="section-inner">
 
-                                <h2>
-                                    Available E-Books
-                                </h2>
+                <div class="row justify-content-center">
 
-                            </div>
+                    <div class="col-md-10 wide-col-laptop">
 
 
-                            <!-- E-Book -->
-                            <div class="ebook-section">
+                        <!-- Page Title -->
+                        <div
+                            class="title-block animate"
+                            data-animate="fadeInUp">
 
-                                <div
-                                    class="ebook-card animate"
-                                    data-animate="fadeInUp">
+                            <span>My Publications</span>
 
+                            <h2>Available E-Books</h2>
 
-                                    <a
-                                        class="ebook-cover"
-                                        href="https://www.amazon.in/dp/B0CD2DNV4T?social_share=cm_sw_r_ffobk_cp_ud_dp_38AWNZ9Q0TGNT5HTXPVR&skipTwisterOG=1&bestFormat=true&newOGT=1&linkCode=ll1&tag=ashrafwani-21&linkId=afefeffedf91829a1b9a99abe999a909&language=en_IN&ref_=as_li_ss_tl"
-                                        target="_blank"
-                                        rel="noopener noreferrer">
-
-                                        <img
-                                            src="https://m.media-amazon.com/images/I/71N-EFdVVSL._SL1500_.jpg"
-                                            alt="Data Analytics: Common Unsupervised Learning Techniques">
-
-                                    </a>
+                        </div>
 
 
-                                    <div class="ebook-info">
+                        <!-- E-Book Card -->
+                        <div
+                            class="page-card animate"
+                            data-animate="fadeInUp">
 
-                                        <h3>
-                                            Data Analytics: Common Unsupervised Learning Techniques
-                                        </h3>
 
-                                        <p>
-                                            Explore common unsupervised learning techniques
-                                            and their applications in data analytics.
-                                        </p>
+                            <!-- Book Cover -->
+                            <a
+                                class="ebook-cover"
+                                href="https://www.amazon.in/dp/B0CD2DNV4T?social_share=cm_sw_r_ffobk_cp_ud_dp_38AWNZ9Q0TGNT5HTXPVR&skipTwisterOG=1&bestFormat=true&newOGT=1&linkCode=ll1&tag=ashrafwani-21&linkId=afefeffedf91829a1b9a99abe999a909&language=en_IN&ref_=as_li_ss_tl"
+                                target="_blank"
+                                rel="noopener noreferrer">
 
-                                        <a
-                                            class="ebook-button"
-                                            href="https://www.amazon.in/dp/B0CD2DNV4T?social_share=cm_sw_r_ffobk_cp_ud_dp_38AWNZ9Q0TGNT5HTXPVR&skipTwisterOG=1&bestFormat=true&newOGT=1&linkCode=ll1&tag=ashrafwani-21&linkId=afefeffedf91829a1b9a99abe999a909&language=en_IN&ref_=as_li_ss_tl"
-                                            target="_blank"
-                                            rel="noopener noreferrer">
+                                <img
+                                    src="https://m.media-amazon.com/images/I/71N-EFdVVSL._SL1500_.jpg"
+                                    alt="Data Analytics: Common Unsupervised Learning Techniques">
 
-                                            View on Amazon
-                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
 
-                                        </a>
 
-                                    </div>
+                            <!-- Book Information -->
+                            <div class="ebook-info">
 
-                                </div>
+                                <h3>
+                                    Data Analytics: Common Unsupervised Learning Techniques
+                                </h3>
+
+                                <p>
+                                    Explore common unsupervised learning techniques
+                                    and their applications in data analytics.
+                                </p>
+
+
+                                <!-- Amazon Button -->
+                                <a
+                                    class="page-button"
+                                    href="https://www.amazon.in/dp/B0CD2DNV4T?social_share=cm_sw_r_ffobk_cp_ud_dp_38AWNZ9Q0TGNT5HTXPVR&skipTwisterOG=1&bestFormat=true&newOGT=1&linkCode=ll1&tag=ashrafwani-21&linkId=afefeffedf91829a1b9a99abe999a909&language=en_IN&ref_=as_li_ss_tl"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                                    View on Amazon
+
+                                </a>
 
                             </div>
 
                         </div>
 
+
                     </div>
 
                 </div>
@@ -458,155 +252,156 @@
         </div>
 
 
-        <!-- Social Icons -->
-        <div id="social-icons">
+    </div>
 
-            <div class="text-right">
 
-                <ul class="social-icons">
+    <!-- Social Icons -->
+    <div id="social-icons">
 
-                    <li>
-                        <a
-                            href="https://twitter.com/m_ashraf_wani"
-                            title="Twitter"
-                            target="_blank"
-                            rel="noopener noreferrer">
+        <div class="text-right">
 
-                            <i class="fa-brands fa-x-twitter"></i>
+            <ul class="social-icons">
 
-                        </a>
-                    </li>
+                <li>
+                    <a
+                        href="https://twitter.com/m_ashraf_wani"
+                        title="Twitter"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-                    <li>
-                        <a
-                            href="https://linkedin.com/in/ashrafwani"
-                            title="LinkedIn"
-                            target="_blank"
-                            rel="noopener noreferrer">
+                        <i class="fa-brands fa-x-twitter"></i>
 
-                            <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
 
-                        </a>
-                    </li>
 
-                    <li>
-                        <a
-                            href="https://github.com/ashrafwani"
-                            title="GitHub"
-                            target="_blank"
-                            rel="noopener noreferrer">
+                <li>
+                    <a
+                        href="https://linkedin.com/in/ashrafwani"
+                        title="LinkedIn"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-                            <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
 
-                        </a>
-                    </li>
+                    </a>
+                </li>
 
-                    <li>
-                        <a
-                            href="https://facebook.com/aashuvani"
-                            title="Facebook"
-                            target="_blank"
-                            rel="noopener noreferrer">
 
-                            <i class="fa-brands fa-facebook-f"></i>
+                <li>
+                    <a
+                        href="https://github.com/ashrafwani"
+                        title="GitHub"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-                        </a>
-                    </li>
+                        <i class="fa-brands fa-github"></i>
 
-                    <li>
-                        <a
-                            href="https://instagram.com/ashrafwani"
-                            title="Instagram"
-                            target="_blank"
-                            rel="noopener noreferrer">
+                    </a>
+                </li>
 
-                            <i class="fa-brands fa-instagram"></i>
 
-                        </a>
-                    </li>
+                <li>
+                    <a
+                        href="https://facebook.com/aashuvani"
+                        title="Facebook"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-                    <li>
-                        <a
-                            href="mailto:ashrafwani@outlook.com"
-                            title="E-Mail">
+                        <i class="fa-brands fa-facebook-f"></i>
 
-                            <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
 
-                        </a>
-                    </li>
 
-                </ul>
+                <li>
+                    <a
+                        href="https://instagram.com/ashrafwani"
+                        title="Instagram"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-            </div>
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+                </li>
+
+
+                <li>
+                    <a
+                        href="mailto:ashrafwani@outlook.com"
+                        title="E-Mail">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                    </a>
+                </li>
+
+            </ul>
 
         </div>
 
     </div>
 
 
-    <!-- JavaScript -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/fullpage.min.js"></script>
-    <script src="js/scrolloverflow.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/custom.js"></script>
+</div>
 
 
-    <!-- Google Analytics -->
-    <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=AW-942252990">
-    </script>
-
-    <script>
-
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
-        gtag('js', new Date());
-
-        gtag('config', 'AW-942252990');
-
-    </script>
+<!-- JavaScript -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fullpage.min.js"></script>
+<script src="js/scrolloverflow.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/custom.js"></script>
 
 
-    <!-- Google Tag Manager -->
-    <script>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-942252990"></script>
 
-        (function(w,d,s,l,i) {
+<script>
 
-            w[l] = w[l] || [];
+    window.dataLayer = window.dataLayer || [];
 
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
+    function gtag() {
+        dataLayer.push(arguments);
+    }
 
-            var f = d.getElementsByTagName(s)[0];
+    gtag('js', new Date());
 
-            var j = d.createElement(s);
+    gtag('config', 'AW-942252990');
 
-            var dl = l != 'dataLayer'
-                ? '&l=' + l
-                : '';
+</script>
 
-            j.async = true;
 
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id='
-                + i
-                + dl;
+<!-- Google Tag Manager -->
+<script>
 
-            f.parentNode.insertBefore(j, f);
+    (function(w,d,s,l,i) {
 
-        })(window, document, 'script', 'dataLayer', 'GTM-NSF482C');
+        w[l]=w[l]||[];
 
-    </script>
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event:'gtm.js'
+        });
+
+        var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),
+            dl=l!='dataLayer'?'&l='+l:'';
+
+        j.async=true;
+
+        j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+        f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-NSF482C');
+
+</script>
+```
 
 </body>
 

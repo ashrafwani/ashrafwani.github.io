@@ -1095,7 +1095,7 @@ textarea.form-control {
 }
 
 .skill-item {
-  border-bottom: 1px solid rgba(250,250,250,0.1);
+  border-bottom: none;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;

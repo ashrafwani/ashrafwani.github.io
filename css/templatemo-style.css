@@ -1192,6 +1192,78 @@ textarea.form-control {
   background: rgba(70,117,203,.3);
 }
 
+/* ==============================================
+   SKILL BAR LOADING ANIMATION
+================================================ */
+
+.filled-bar,
+.filled-bar-2,
+.filled-bar-3,
+.filled-bar-4 {
+    transform: scaleX(0);
+    transform-origin: left center;
+    animation: skillLoad 1.5s ease-out forwards;
+}
+
+
+/* Expert */
+.filled-bar {
+    width: 95%;
+    background: rgba(239,71,111,.3);
+    animation-delay: 0.2s;
+}
+
+
+/* Advanced */
+.filled-bar-2 {
+    width: 80%;
+    background: rgba(255,184,3,.3);
+    animation-delay: 0.35s;
+}
+
+
+/* Intermediate */
+.filled-bar-3 {
+    width: 65%;
+    background: rgba(3,209,198,.3);
+    animation-delay: 0.5s;
+}
+
+
+/* Beginner */
+.filled-bar-4 {
+    width: 50%;
+    background: rgba(70,117,203,.3);
+    animation-delay: 0.65s;
+}
+
+
+/* Loading Animation */
+@keyframes skillLoad {
+    from {
+        transform: scaleX(0);
+    }
+
+    to {
+        transform: scaleX(1);
+    }
+}
+
+.filled-bar {
+    box-shadow: 0 0 8px rgba(239,71,111,.25);
+}
+
+.filled-bar-2 {
+    box-shadow: 0 0 8px rgba(255,184,3,.25);
+}
+
+.filled-bar-3 {
+    box-shadow: 0 0 8px rgba(3,209,198,.25);
+}
+
+.filled-bar-4 {
+    box-shadow: 0 0 8px rgba(70,117,203,.25);
+}
 
 /*==============================================
 11. CLIENTS BLOCK CSS

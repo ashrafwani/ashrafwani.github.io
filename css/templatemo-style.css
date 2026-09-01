@@ -1289,8 +1289,8 @@ textarea.form-control {
     right: -5px;
     top: 50%;
     transform: translateY(-50%);
-    width: 9px;
-    height: 9px;
+    width: 7px;
+    height: 7px;
     background: #ffffff;
     border-radius: 50%;
     box-shadow: 0 0 8px rgba(255,255,255,0.8);

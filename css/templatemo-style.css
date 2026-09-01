@@ -318,6 +318,7 @@ video {
 }
 
 #fullpage {
+    position: relative;
     z-index: 99;
 }
 

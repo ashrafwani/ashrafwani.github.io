@@ -1154,63 +1154,74 @@ textarea.form-control {
 
 /* ==============================================
    EXPERT
-   Blue
 ================================================ */
 
 .filled-bar {
   width: 95%;
-  background: #3b82f6;
+  background: #D96B8A;
 }
 
 .skill-item:has(.filled-bar) span {
-  background: #3b82f6;
+  background: #D96B8A;
+}
+
+.skill-item:has(.filled-bar) {
+  border-bottom: 1px solid rgba(217, 107, 138, 0.30);
 }
 
 
 /* ==============================================
    ADVANCED
-   Purple
 ================================================ */
 
 .filled-bar-2 {
   width: 80%;
-  background: #8b5cf6;
+  background: #D99A5B;
 }
 
 .skill-item:has(.filled-bar-2) span {
-  background: #8b5cf6;
+  background: #D99A5B;
+}
+
+.skill-item:has(.filled-bar-2) {
+  border-bottom: 1px solid rgba(217, 154, 91, 0.30);
 }
 
 
 /* ==============================================
    INTERMEDIATE
-   Light Blue
 ================================================ */
 
 .filled-bar-3 {
   width: 65%;
-  background: #38bdf8;
+  background: #6FBF9F;
 }
 
 .skill-item:has(.filled-bar-3) span {
-  background: #38bdf8;
+  background: #6FBF9F;
+}
+
+.skill-item:has(.filled-bar-3) {
+  border-bottom: 1px solid rgba(111, 191, 159, 0.30);
 }
 
 
 /* ==============================================
    BEGINNER
-   Soft Gray
 ================================================ */
 
 .filled-bar-4 {
   width: 50%;
-  background: #94a3b8;
+  background: #6FA8C9;
 }
 
 .skill-item:has(.filled-bar-4) span {
-  background: #94a3b8;
+  background: #6FA8C9;
 }
 
+.skill-item:has(.filled-bar-4) {
+  border-bottom: 1px solid rgba(111, 168, 201, 0.30);
+}
 
 /*==============================================
 11. CLIENTS BLOCK CSS

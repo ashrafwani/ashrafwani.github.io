@@ -1158,15 +1158,11 @@ textarea.form-control {
 
 .filled-bar {
   width: 95%;
-  background: rgba(239,71,111,.08);
+  background: rgba(239,71,111,.3);
 }
 
 .skill-item:has(.filled-bar) span {
-  background: rgba(239,71,111,.08);
-}
-
-.skill-item:has(.filled-bar) {
-  border-bottom: 1.5px solid rgba(239,71,111,.3)
+  background: rgba(239,71,111,.3);
 }
 
 
@@ -1176,16 +1172,11 @@ textarea.form-control {
 
 .filled-bar-2 {
   width: 80%;
-  background: rgba(255,184,3,.08);
+  background: rgba(255,184,3,.3);
 }
 
 .skill-item:has(.filled-bar-2) span {
-  background: rgba(255,184,3,.08);
-}
-
-.skill-item:has(.filled-bar-2) {
-  border: 1.5px solid rgba(255,184,3,.3)
-  
+  background: rgba(255,184,3,.3);
 }
 
 
@@ -1195,15 +1186,11 @@ textarea.form-control {
 
 .filled-bar-3 {
   width: 65%;
-  background: rgba(3,209,198,.08);
+  background: rgba(3,209,198,.3);
 }
 
 .skill-item:has(.filled-bar-3) span {
-  background: rgba(3,209,198,.08);
-}
-
-.skill-item:has(.filled-bar-3) {
-  border: 1.5px solid rgba(3,209,198,.3)
+  background: rgba(3,209,198,.3);
 }
 
 
@@ -1213,16 +1200,13 @@ textarea.form-control {
 
 .filled-bar-4 {
   width: 50%;
-  background: rgba(70,117,203,.08);
+  background: rgba(70,117,203,.3);
 }
 
 .skill-item:has(.filled-bar-4) span {
-  background: rgba(70,117,203,.08);
+  background: rgba(70,117,203,.3);
 }
 
-.skill-item:has(.filled-bar-4) {
-  border: 1.5px solid rgba(70,117,203,.3)
-}
 
 /*==============================================
 11. CLIENTS BLOCK CSS

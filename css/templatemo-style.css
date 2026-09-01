@@ -1095,7 +1095,7 @@ textarea.form-control {
 }
 
 .skill-item {
-  border-bottom: none;
+  border-bottom: 1px solid rgba(250,250,250,0.1);
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -1112,7 +1112,7 @@ textarea.form-control {
   height: 32px;
   text-align: center;
   line-height: 32px;
-  color: #fff; 
+  color: #fff;
   border-radius: 20px;
   font-size: 11px;
   font-weight: 700;
@@ -1150,9 +1150,6 @@ textarea.form-control {
   z-index: 99;
   height: 5px;
   border-radius: 3px;
-    transform: scaleX(0);
-    transform-origin: left center;
-    animation: skillLoad 1.5s ease-out forwards;
 }
 
 /* ==============================================
@@ -1162,13 +1159,11 @@ textarea.form-control {
 .filled-bar {
   width: 95%;
   background: rgba(239,71,111,.3);
-  animation-delay: 0.2s;
 }
 
 .skill-item:has(.filled-bar) span {
   background: #D96B8A;
 }
-
 
 
 /* ==============================================
@@ -1178,13 +1173,11 @@ textarea.form-control {
 .filled-bar-2 {
   width: 80%;
   background: rgba(255,184,3,.3);
-  animation-delay: 0.35s;
 }
 
-.skill-item:has(.filled-bar) span {
+.skill-item:has(.filled-bar-2) span {
   background: #D99A5B;
 }
-
 
 
 /* ==============================================
@@ -1194,13 +1187,11 @@ textarea.form-control {
 .filled-bar-3 {
   width: 65%;
   background: rgba(3,209,198,.3);
-  animation-delay: 0.5s;
 }
 
-.skill-item:has(.filled-bar) span {
+.skill-item:has(.filled-bar-3) span {
   background: #6FBF9F;
 }
-
 
 
 /* ==============================================
@@ -1210,23 +1201,10 @@ textarea.form-control {
 .filled-bar-4 {
   width: 50%;
   background: rgba(70,117,203,.3);
-  animation-delay: 0.65s;
 }
 
-.skill-item:has(.filled-bar) span {
+.skill-item:has(.filled-bar-4) span {
   background: #6FA8C9;
-}
-
-
-/* Loading Animation */
-@keyframes skillLoad {
-    from {
-        transform: scaleX(0);
-    }
-
-    to {
-        transform: scaleX(1);
-    }
 }
 
 

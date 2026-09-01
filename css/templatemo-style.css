@@ -1416,4 +1416,132 @@ textarea.form-control {
 RESUME CARD 
 ================================================= */ 
 
-.resume-section { margin-top: 15px; } .resume-card { max-width: 850px; margin: 0 auto; padding: 15px; background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 14px; box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25), 0 0 30px rgba(37, 99, 235, 0.08); transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease; } .resume-card:hover { transform: translateY(-4px); border-color: rgba(249, 115, 22, 0.6); box-shadow: 0 20px 45px rgba(0, 0, 0, 0.30), 0 0 30px rgba(249, 115, 22, 0.12); } /* ============================================== PDF VIEWER ================================================= */ .resume-pdf { width: 100%; height: 65vh; display: block; border: none; border-radius: 10px; background: #fff; } /* ============================================== RESUME ACTIONS ================================================= */ .resume-actions { display: flex; justify-content: center; align-items: center; gap: 12px; margin-top: 15px; } .resume-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; border: 1px solid #F97316; border-radius: 8px; background: rgba(249, 115, 22, 0.10); color: #fff; font-size: 12px; font-weight: 700; text-transform: uppercase; text-decoration: none; transition: all 0.3s ease; } .resume-button:hover { background: #F97316; border-color: #F97316; color: #fff; text-decoration: none; transform: translateY(-2px); box-shadow: 0 6px 18px rgba(249, 115, 22, 0.25); }
+.resume-section { 
+  margin-top: 15px; 
+} 
+
+.resume-card { 
+  max-width: 850px; 
+  margin: 0 auto; 
+  padding: 15px; 
+  background: rgba(255, 255, 255, 0.06); 
+  border: 1px solid rgba(255, 255, 255, 0.15); 
+  border-radius: 14px; 
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25), 
+              0 0 30px rgba(37, 99, 235, 0.08); 
+  transition: transform 0.35s ease, 
+              border-color 0.35s ease, 
+              box-shadow 0.35s ease; 
+} 
+
+.resume-card:hover { 
+  transform: translateY(-4px); 
+  border-color: rgba(249, 115, 22, 0.6); 
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.30), 
+              0 0 30px rgba(249, 115, 22, 0.12); 
+}
+
+/* ============================================== 
+PDF VIEWER 
+================================================= */ 
+
+.resume-pdf { 
+  width: 100%; 
+  height: 65vh; 
+  display: block; 
+  border: none; 
+  border-radius: 10px; 
+  background: #fff; 
+} 
+
+/* ============================================== 
+RESUME ACTIONS 
+================================================= */ 
+
+.resume-actions { 
+  display: flex; 
+  justify-content: center; align-items: center; gap: 12px; margin-top: 15px; } .resume-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 10px 20px; border: 1px solid #F97316; border-radius: 8px; background: rgba(249, 115, 22, 0.10); color: #fff; font-size: 12px; font-weight: 700; text-transform: uppercase; text-decoration: none; transition: all 0.3s ease; } .resume-button:hover { background: #F97316; border-color: #F97316; color: #fff; text-decoration: none; transform: translateY(-2px); box-shadow: 0 6px 18px rgba(249, 115, 22, 0.25); }
+
+/*==============================================
+E-BOOK HORIZONTAL LAYOUT
+================================================*/
+
+.ebook-cover {
+    width: 42%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ebook-cover a {
+    display: block;
+}
+
+.ebook-cover img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.ebook-cover img:hover {
+    transform: scale(1.04);
+}
+
+.ebook-info {
+    width: 58%;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.ebook-info h3 {
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    text-transform: none;
+}
+
+.ebook-info p {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+    color: rgba(255,255,255,0.75);
+}
+
+.ebook-info .btn {
+    line-height: 42px;
+    padding: 0 18px;
+    font-size: 11px;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 767px) {
+
+    .ebook-cover {
+        width: 40%;
+    }
+
+    .ebook-info {
+        width: 60%;
+        padding-left: 15px;
+    }
+
+    .ebook-cover img {
+        max-width: 120px;
+    }
+
+    .ebook-info h3 {
+        font-size: 15px;
+    }
+
+    .ebook-info p {
+        font-size: 12px;
+    }
+
+}
+

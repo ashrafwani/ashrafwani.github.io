@@ -174,7 +174,7 @@ video {
 
 .btn {
   background: rgba(255,184,3,.3);
-  color: #222;
+  color: #fff;
   text-align:center;
   line-height:52px;
   padding:0 35px;
@@ -186,9 +186,11 @@ video {
       
 }
 .btn:hover, .btn:focus {
+  transform: translateY(-5px);
   color:#fff;
   border-color:#f97316;
-  background: rgba(255,184,3,.3);
+  background: rgba(255,184,3,.5);
+  box-shadow: 0 0 8px rgba(255,184,3,.25);
 }
 .btn:focus {
   box-shadow: 0 0 8px rgba(255,184,3,.25);

@@ -1216,7 +1216,7 @@ textarea.form-control {
 .filled-bar-4 {
     transform: scaleX(0);
     transform-origin: left center;
-    animation: skillLoad 1.5s ease-out forwards;
+    animation: skillLoad 5s ease-out forwards;
 }
 
 
@@ -1228,19 +1228,19 @@ textarea.form-control {
 
 /* Advanced */
 .filled-bar-2 {
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 
 /* Intermediate */
 .filled-bar-3 {
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 
 
 /* Beginner */
 .filled-bar-4 {
-    animation-delay: 2.5s;
+    animation-delay: 4s;
 }
 
 

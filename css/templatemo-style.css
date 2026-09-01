@@ -1153,74 +1153,75 @@ textarea.form-control {
 }
 
 /* ==============================================
-   EXPERT
+   EXPERT RED
 ================================================ */
 
 .filled-bar {
   width: 95%;
-  background: #D96B8A;
+  background: rgba(239,71,111,.08);
 }
 
 .skill-item:has(.filled-bar) span {
-  background: #D96B8A;
+  background: rgba(239,71,111,.08);
 }
 
 .skill-item:has(.filled-bar) {
-  border-bottom: 1px solid rgba(217, 107, 138, 0.30);
+  border-bottom: 1.5px solid rgba(239,71,111,.3)
 }
 
 
 /* ==============================================
-   ADVANCED
+   ADVANCED ORANGE
 ================================================ */
 
 .filled-bar-2 {
   width: 80%;
-  background: #D99A5B;
+  background: rgba(255,184,3,.08);
 }
 
 .skill-item:has(.filled-bar-2) span {
-  background: #D99A5B;
+  background: rgba(255,184,3,.08);
 }
 
 .skill-item:has(.filled-bar-2) {
-  border-bottom: 1px solid rgba(217, 154, 91, 0.30);
+  border: 1.5px solid rgba(255,184,3,.3)
+  
 }
 
 
 /* ==============================================
-   INTERMEDIATE
+   INTERMEDIATE GREEN
 ================================================ */
 
 .filled-bar-3 {
   width: 65%;
-  background: #6FBF9F;
+  background: rgba(3,209,198,.08);
 }
 
 .skill-item:has(.filled-bar-3) span {
-  background: #6FBF9F;
+  background: rgba(3,209,198,.08);
 }
 
 .skill-item:has(.filled-bar-3) {
-  border-bottom: 1px solid rgba(111, 191, 159, 0.30);
+  border: 1.5px solid rgba(3,209,198,.3)
 }
 
 
 /* ==============================================
-   BEGINNER
+   BEGINNER BLUE
 ================================================ */
 
 .filled-bar-4 {
   width: 50%;
-  background: #6FA8C9;
+  background: rgba(70,117,203,.08);
 }
 
 .skill-item:has(.filled-bar-4) span {
-  background: #6FA8C9;
+  background: rgba(70,117,203,.08);
 }
 
 .skill-item:has(.filled-bar-4) {
-  border-bottom: 1px solid rgba(111, 168, 201, 0.30);
+  border: 1.5px solid rgba(70,117,203,.3)
 }
 
 /*==============================================

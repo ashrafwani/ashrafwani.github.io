@@ -251,106 +251,118 @@
 
         /* ==============================================
            FULLPAGE
-           
-           Desktop:
-           FullPage.js enabled
-
-           Mobile:
-           Normal browser scrolling
+           Desktop only
         ============================================== */
-
-        if ($('.fullpage-default').length) {
-
-            if (!screencheck(767)) {
-
-                new fullpage('.fullpage-default', {
-
-                    licenseKey: 'C7F41B00-5E824594-9A5EFB99-B556A3D5',
-
-                    anchors: [
-                        'slide01',
-                        'slide02',
-                        'slide03',
-                        'slide04',
-                        'slide05',
-                        'slide06',
-                        'slide07'
-                    ],
-
-                    menu: '#nav',
-
-                    lazyLoad: true,
-
-                    navigation: true,
-                    navigationPosition: 'right',
-
-                    scrollOverflow: true,
-
-                    responsiveWidth: 0,
-                    responsiveHeight: 0,
-
-                    responsiveSlides: false
-
-                });
-
-            }
-
+        
+        if ($('.fullpage-default').length && !screencheck(767)) {
+        
+            new fullpage('.fullpage-default', {
+        
+                licenseKey: 'C7F41B00-5E824594-9A5EFB99-B556A3D5',
+        
+                anchors: [
+                    'slide01',
+                    'slide02',
+                    'slide03',
+                    'slide04',
+                    'slide05',
+                    'slide06',
+                    'slide07'
+                ],
+        
+                menu: '#nav',
+        
+                lazyLoad: true,
+        
+                navigation: true,
+                navigationPosition: 'right',
+        
+                scrollOverflow: true,
+        
+                responsiveWidth: 0,
+                responsiveHeight: 0,
+        
+                responsiveSlides: false
+        
+            });
+        
         }
-
 
         /* ==============================================
            MOBILE NAVIGATION
         ============================================== */
-
-        $(document)
-
-            .on('click', '.navbar-toggle', function(e) {
-
-                e.preventDefault();
-                e.stopPropagation();
-
-                $('.navbar-collapse').slideToggle(300);
-
-            })
-
-
-            .on('click', '.navigation-menu > li > a', function() {
-
-                $('.navbar-collapse').slideUp(300);
-
-            })
-
-
-            /* ==============================================
-               NEXT SECTION BUTTON
-            ============================================== */
-
-            .on('click', '.next-section', function(e) {
-
-                e.preventDefault();
-
-                if (typeof fullpage_api !== 'undefined' && !screencheck(767)) {
-
-                    fullpage_api.moveSectionDown();
-
-                } else {
-
-                    var nextSection = $(this)
-                        .closest('.section')
-                        .next('.section');
-
-                    if (nextSection.length) {
-
-                        $('html, body').animate({
-
-                            scrollTop: nextSection.offset().top
-
-                        }, 600);
-
-                    }
-
+        
+        $(document).on('click', '.navbar-toggle', function(e) {
+        
+            e.preventDefault();
+        
+            $('.navbar-collapse').slideToggle(300);
+        
+        });
+        
+        
+        $(document).on('click', '.navigation-menu > li > a', function(e) {
+        
+            var target = $(this).attr('href');
+        
+            $('.navbar-collapse').slideUp(300);
+        
+            /*
+               Mobile
+               Use normal browser scrolling
+            */
+        
+            if (screencheck(767) && target && target.charAt(0) === '#') {
+        
+                var $target = $(target);
+        
+                if ($target.length) {
+        
+                    e.preventDefault();
+        
+                    $('html, body').stop().animate({
+        
+                        scrollTop: $target.offset().top - 70
+        
+                    }, 600);
+        
                 }
+        
+            }
+        
+        });
 
+
+           /* ==============================================
+               NEXT SECTION
+            ============================================== */
+            
+            $(document).on('click', '.next-section', function(e) {
+            
+                e.preventDefault();
+            
+                if (!screencheck(767) &&
+                    typeof fullpage_api !== 'undefined') {
+            
+                    fullpage_api.moveSectionDown();
+            
+                    return;
+            
+                }
+            
+                var $current = $(this).closest('.section');
+                var $next = $current.next('.section');
+            
+                if ($next.length) {
+            
+                    $('html, body').stop().animate({
+            
+                        scrollTop: $next.offset().top
+            
+                    }, 600);
+            
+                }
+            
             });
 
 

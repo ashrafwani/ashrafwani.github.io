@@ -166,7 +166,9 @@ video {
   padding:20px 30px 0;
 }
 .fp-scrollable {
-  height:calc(100vh - 200px) !important;
+        height: auto !important;
+        max-height: none !important;
+        overflow: visible !important;
 }
 #fp-nav ul li a span {
  display: none;

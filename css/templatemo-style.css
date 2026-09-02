@@ -149,6 +149,16 @@ video {
     background: #0F172A;
 }
 
+#video {
+    z-index: 0 !important;
+    pointer-events: none !important;
+}
+
+#main {
+    position: relative;
+    z-index: 1;
+}
+
 #video:after {
     content: '';
     position: fixed;

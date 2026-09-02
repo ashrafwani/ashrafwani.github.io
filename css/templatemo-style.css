@@ -166,18 +166,6 @@ video {
   padding:20px 30px 0;
 }
 
-.fp-scrollable {
-    height: calc(100vh - 200px) !important;
-}
-
-@media screen and (max-width: 767px) {
-    .fp-scrollable {
-        height: auto !important;
-        max-height: none !important;
-        overflow: visible !important;
-    }
-}
-
 #fp-nav ul li a span {
  display: none;
 }
@@ -1555,3 +1543,208 @@ E-BOOK HORIZONTAL LAYOUT
 
 }
 
+/* ==========================================================
+   MOBILE NORMAL SCROLLING
+========================================================== */
+
+@media screen and (max-width: 767px) {
+
+    html {
+        width: 100%;
+        height: auto !important;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+    }
+
+    body {
+        width: 100%;
+        height: auto !important;
+        min-height: 100%;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+        position: relative;
+    }
+
+    #main {
+        width: 100%;
+        height: auto !important;
+        min-height: 100vh;
+        overflow: visible !important;
+        position: relative;
+    }
+
+    #fullpage {
+        width: 100%;
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+        position: relative !important;
+        transform: none !important;
+    }
+
+    #fullpage .section {
+        width: 100%;
+        height: auto !important;
+        min-height: 100vh;
+        position: relative !important;
+        overflow: visible !important;
+        top: auto !important;
+        left: auto !important;
+    }
+
+    #fullpage .section-inner {
+        width: 100%;
+        height: auto !important;
+        min-height: 100vh;
+        overflow: visible !important;
+        position: relative !important;
+    }
+
+    /*
+       Kill FullPage.js scroll containers
+    */
+
+    .fp-scrollable,
+    .fp-overflow,
+    .fp-scroller {
+        height: auto !important;
+        max-height: none !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+        transform: none !important;
+    }
+
+
+    /*
+       Background must NEVER capture touch
+    */
+
+    #video {
+        pointer-events: none !important;
+        z-index: 0 !important;
+    }
+
+    #video::before,
+    #video::after {
+        pointer-events: none !important;
+    }
+
+
+    /*
+       Content above background
+    */
+
+    #main,
+    #fullpage,
+    #fullpage .section,
+    #fullpage .section-inner {
+        z-index: 1;
+    }
+
+
+    /*
+       Header
+    */
+
+    #header {
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999 !important;
+        pointer-events: auto !important;
+    }
+
+
+    /*
+       Navigation
+    */
+
+    #navigation,
+    .navigation-row,
+    .navbar,
+    .nav-box,
+    .navbar-collapse,
+    .navigation-menu {
+        pointer-events: auto !important;
+    }
+
+    .navigation-menu li,
+    .navigation-menu li a {
+        pointer-events: auto !important;
+    }
+
+
+    /*
+       All links
+    */
+
+    a {
+        pointer-events: auto;
+        touch-action: manipulation;
+    }
+
+
+    /*
+       Social icons
+    */
+
+    #social-icons {
+        z-index: 9998 !important;
+        pointer-events: auto !important;
+    }
+
+    #social-icons a {
+        pointer-events: auto !important;
+        touch-action: manipulation;
+    }
+
+
+    /*
+       Mobile menu button
+    */
+
+    .navbar-toggle {
+        position: relative;
+        z-index: 10000 !important;
+        pointer-events: auto !important;
+        touch-action: manipulation;
+    }
+
+
+    /*
+       Next section button
+    */
+
+    .next-section {
+        position: relative !important;
+        top: auto !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+        transform: none !important;
+        pointer-events: auto !important;
+        margin-top: 30px;
+    }
+
+
+    /*
+       Prevent decorative elements from blocking touch
+    */
+
+    *::before,
+    *::after {
+        pointer-events: none;
+    }
+
+
+    /*
+       Images
+    */
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}

@@ -101,10 +101,40 @@ h6 {
   font-weight: 600;
   text-transform:uppercase;
 }
+
 h2 {
   font-size: 32px;
-  color: #2563eb;
+  background: linear-gradient(
+    90deg,
+    #ffd6e0,
+    #ffe0c2,
+    #fff1b8,
+    #d9f5d0,
+    #cceeff,
+    #d6e4ff,
+    #ddd2ff,
+    #f0d6f5
+  );
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbowText 6s linear infinite;
 }
+
+@keyframes rainbowText {
+    0% {
+    background-position: 0% center;
+  }
+
+  50% {
+    background-position: 150% center;
+  }
+
+  100% {
+    background-position: 300% center;
+  }
+}
+
 h3 {
   font-size: 30px;
   font-weight: 600;

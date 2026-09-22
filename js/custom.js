@@ -160,6 +160,7 @@
                 lazyLoad: true,
                 navigation: true,
                 navigationPosition: 'right',
+                scrollOverflow: true,
                 responsiveWidth: 768,
                 responsiveHeight: 600,
                 responsiveSlides: true

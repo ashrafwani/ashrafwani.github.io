@@ -1568,3 +1568,67 @@ E-BOOK HORIZONTAL LAYOUT
     }
 
 }
+
+.certifications-section {
+    width: 100%;
+}
+
+.certification-provider {
+    margin-bottom: 30px;
+}
+
+.certification-provider-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.certification-provider-title i {
+    width: 28px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.certification-provider-title h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.certification-item {
+    display: flex;
+    align-items: flex-start;
+    min-height: 40px;
+    padding: 8px 0;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.certification-item i {
+    width: 25px;
+    min-width: 25px;
+    margin-right: 10px;
+    padding-top: 2px;
+    font-size: 13px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.certification-item span {
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.certification-item:hover {
+    color: #f97316;
+    transform: translateX(4px);
+}
+
+@media only screen and (max-width: 991px) {
+    .certifications-section .col-md-3 {
+        margin-bottom: 25px;
+    }
+}

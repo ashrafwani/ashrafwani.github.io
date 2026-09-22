@@ -1569,6 +1569,8 @@ E-BOOK HORIZONTAL LAYOUT
 
 }
 
+
+
 .certifications-section {
     width: 100%;
 }
@@ -1580,30 +1582,37 @@ E-BOOK HORIZONTAL LAYOUT
 .certification-provider-title {
     display: flex;
     align-items: center;
-    margin-bottom: 18px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.08);
+    border-left: 3px solid #f97316;
 }
 
 .certification-provider-title i {
     width: 28px;
+    min-width: 28px;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
 .certification-provider-title h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
+    color: #ffffff;
 }
 
 .certification-item {
     display: flex;
-    align-items: flex-start;
-    min-height: 40px;
-    padding: 8px 0;
-    color: #fff;
+    align-items: center;
+    min-height: 44px;
+    margin-bottom: 8px;
+    padding: 9px 12px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 2px;
+    color: #ffffff;
     transition: all 0.3s ease;
 }
 
@@ -1611,20 +1620,25 @@ E-BOOK HORIZONTAL LAYOUT
     width: 25px;
     min-width: 25px;
     margin-right: 10px;
-    padding-top: 2px;
     font-size: 13px;
-    opacity: 0.8;
+    opacity: 0.85;
     text-align: center;
 }
 
 .certification-item span {
-    font-size: 12px;
-    line-height: 1.45;
+    font-size: 11px;
+    line-height: 1.4;
 }
 
 .certification-item:hover {
-    color: #f97316;
-    transform: translateX(4px);
+    background: rgba(249, 115, 22, 0.12);
+    border-color: rgba(249, 115, 22, 0.35);
+    color: #ffffff;
+    transform: translateX(3px);
+}
+
+.certification-item:hover i {
+    opacity: 1;
 }
 
 @media only screen and (max-width: 991px) {

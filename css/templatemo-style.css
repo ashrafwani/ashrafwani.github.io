@@ -180,11 +180,7 @@ video {
 }
 
 #video:after {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: #0F172A;
-    opacity: 1;
+    display: none;
 }
 
 .wrapper-background-dark:after {

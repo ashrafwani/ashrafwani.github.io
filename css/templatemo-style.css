@@ -1569,16 +1569,26 @@ E-BOOK HORIZONTAL LAYOUT
 
 }
 
+/* =========================================================
+   CERTIFICATIONS PAGE
+   ========================================================= */
 
-
+/* Main certifications container */
 .certifications-section {
     width: 100%;
 }
+
+
+/* ---------------------------------------------------------
+   Provider Block
+   --------------------------------------------------------- */
 
 .certification-provider {
     margin-bottom: 30px;
 }
 
+
+/* Provider heading */
 .certification-provider-title {
     display: flex;
     align-items: center;
@@ -1588,6 +1598,8 @@ E-BOOK HORIZONTAL LAYOUT
     border-left: 3px solid #f97316;
 }
 
+
+/* Provider icon */
 .certification-provider-title i {
     width: 28px;
     min-width: 28px;
@@ -1596,53 +1608,392 @@ E-BOOK HORIZONTAL LAYOUT
     text-align: center;
 }
 
+
+/* Provider name */
 .certification-provider-title h3 {
     margin: 0;
+    padding: 0;
     font-size: 17px;
     font-weight: 600;
+    line-height: 1.3;
     color: #ffffff;
 }
+
+
+/* ---------------------------------------------------------
+   Individual Certification Block
+   --------------------------------------------------------- */
 
 .certification-item {
     display: flex;
     align-items: center;
+
+    width: 100%;
     min-height: 44px;
+
     margin-bottom: 8px;
     padding: 9px 12px;
+
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(255, 255, 255, 0.08);
+
     border-radius: 2px;
+
     color: #ffffff;
-    transition: all 0.3s ease;
+
+    transition:
+        background 0.3s ease,
+        border-color 0.3s ease,
+        transform 0.3s ease;
 }
 
+
+/* Certification icon */
 .certification-item i {
     width: 25px;
     min-width: 25px;
+
     margin-right: 10px;
+
     font-size: 13px;
-    opacity: 0.85;
+
     text-align: center;
+
+    opacity: 0.85;
+
+    transition:
+        opacity 0.3s ease,
+        color 0.3s ease;
 }
 
+
+/* Certification text */
 .certification-item span {
+    display: block;
+
     font-size: 11px;
+    font-weight: 400;
+
     line-height: 1.4;
+
+    color: #ffffff;
 }
+
+
+/* ---------------------------------------------------------
+   Hover Effect
+   --------------------------------------------------------- */
 
 .certification-item:hover {
     background: rgba(249, 115, 22, 0.12);
+
     border-color: rgba(249, 115, 22, 0.35);
+
     color: #ffffff;
+
     transform: translateX(3px);
 }
 
+
 .certification-item:hover i {
+    color: #f97316;
+
     opacity: 1;
 }
 
-@media only screen and (max-width: 991px) {
-    .certifications-section .col-md-3 {
+
+.certification-item:hover span {
+    color: #ffffff;
+}
+
+
+/* ---------------------------------------------------------
+   Provider Hover
+   --------------------------------------------------------- */
+
+.certification-provider-title {
+    transition:
+        background 0.3s ease,
+        border-color 0.3s ease;
+}
+
+
+.certification-provider-title:hover {
+    background: rgba(249, 115, 22, 0.10);
+
+    border-left-color: #f97316;
+}
+
+
+/* ---------------------------------------------------------
+   Certification Grid
+   --------------------------------------------------------- */
+
+.certifications-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.certifications-section .col-md-3 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+/* ---------------------------------------------------------
+   Desktop
+   --------------------------------------------------------- */
+
+@media only screen and (min-width: 1200px) {
+
+    .certification-provider {
         margin-bottom: 25px;
     }
+
+    .certification-provider-title {
+        margin-bottom: 14px;
+    }
+
+    .certification-item {
+        min-height: 42px;
+        padding: 8px 10px;
+    }
+
+    .certification-item span {
+        font-size: 11px;
+    }
+
+}
+
+
+/* ---------------------------------------------------------
+   Laptop / Tablet
+   --------------------------------------------------------- */
+
+@media only screen and (max-width: 1199px) {
+
+    .certification-provider-title h3 {
+        font-size: 16px;
+    }
+
+    .certification-item {
+        min-height: 42px;
+        padding: 8px 10px;
+    }
+
+    .certification-item span {
+        font-size: 11px;
+    }
+
+}
+
+
+/* ---------------------------------------------------------
+   Tablet
+   --------------------------------------------------------- */
+
+@media only screen and (max-width: 991px) {
+
+    .certifications-section .col-md-3 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .certification-provider {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+/* ---------------------------------------------------------
+   Mobile
+   --------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+    .certifications-section .col-md-3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .certification-provider {
+        margin-bottom: 20px;
+    }
+
+    .certification-provider-title {
+        padding: 9px 12px;
+    }
+
+    .certification-provider-title i {
+        font-size: 17px;
+    }
+
+    .certification-provider-title h3 {
+        font-size: 16px;
+    }
+
+    .certification-item {
+        min-height: 42px;
+        padding: 9px 11px;
+    }
+
+    .certification-item span {
+        font-size: 11px;
+    }
+
+}
+
+
+/* ---------------------------------------------------------
+   Small Mobile
+   --------------------------------------------------------- */
+
+@media only screen and (max-width: 480px) {
+
+    .certification-item {
+        padding: 8px 10px;
+    }
+
+    .certification-item i {
+        width: 23px;
+        min-width: 23px;
+        margin-right: 8px;
+        font-size: 12px;
+    }
+
+    .certification-item span {
+        font-size: 10.5px;
+        line-height: 1.4;
+    }
+
+}
+
+
+/* =========================================================
+   CERTIFICATIONS PAGE SCROLLING
+   ========================================================= */
+
+html,
+body {
+    height: auto !important;
+    min-height: 100%;
+}
+
+
+body.certifications-page {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+
+/* Main wrapper */
+body.certifications-page #video {
+    position: relative !important;
+
+    inset: auto !important;
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    height: auto !important;
+
+    overflow: visible !important;
+}
+
+
+/* Fullpage wrapper */
+body.certifications-page #fullpage {
+    height: auto !important;
+
+    min-height: 100vh;
+}
+
+
+/* Section */
+body.certifications-page #fullpage .section {
+    height: auto !important;
+
+    min-height: 100vh;
+
+    overflow: visible !important;
+}
+
+
+/* Section inner */
+body.certifications-page .section-inner {
+    height: auto !important;
+
+    min-height: 100vh;
+
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+
+/* Disable fullPage internal scrolling */
+body.certifications-page .fp-scrollable,
+body.certifications-page .fp-scroller,
+body.certifications-page .fp-overflow {
+    height: auto !important;
+
+    max-height: none !important;
+
+    overflow: visible !important;
+}
+
+
+/* =========================================================
+   CERTIFICATION PAGE TITLE
+   ========================================================= */
+
+body.certifications-page .title-block {
+    margin-bottom: 35px;
+}
+
+
+body.certifications-page .title-block h2 {
+    margin-bottom: 0;
+}
+
+
+/* =========================================================
+   SOCIAL ICONS
+   ========================================================= */
+
+body.certifications-page #social-icons {
+    position: fixed;
+
+    right: 30px;
+    bottom: 25px;
+
+    z-index: 1000;
+}
+
+
+/* =========================================================
+   BACKGROUND
+   ========================================================= */
+
+body.certifications-page #video:after {
+    z-index: 0;
+}
+
+
+body.certifications-page #header,
+body.certifications-page #fullpage,
+body.certifications-page #social-icons {
+    position: relative;
+
+    z-index: 2;
+}
+
+
+/* Keep actual content above background */
+body.certifications-page .section-inner {
+    position: relative;
+
+    z-index: 2;
 }
